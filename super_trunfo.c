@@ -35,14 +35,14 @@
     
 
     printf("População:");                                                               //Pede ao usuário o número de habitantes da cidade
-    scanf("\n %d",&populacao1);                                                        // Armazena o valor de população na variável população1
+    scanf("\n%d",&populacao1);                                                        // Armazena o valor de população na variável população1
 
 
     printf("Área:");                                                                   //Pede ao usuário o número da área da cidade 
     scanf("\n%f",&area1);                                                             // Armazena o valor da área da cidade na variável área1
 
     printf("PIB:");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
-    scanf("\n %f",&PIB1);                                                           //Armazena o valor de PIB  em PIB1
+    scanf("\n%f",&PIB1);                                                           //Armazena o valor de PIB  em PIB1
 
 
 
