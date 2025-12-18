@@ -90,7 +90,7 @@
 
 
     printf("Área: ");                                                                   //Pede ao usuário o número da área da cidade 
-    scanf(" \n%f",&area2);                                                             // Armazena o valor da área da cidade na variável área2
+    scanf("\n%f",&area2);                                                             // Armazena o valor da área da cidade na variável área2
 
     printf("PIB: ");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("\n %f",&PIB2);                                                           //Armazena o valor de PIB  em PIB2
