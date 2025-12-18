@@ -79,7 +79,7 @@
 
 
     printf("Código da carta: ");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
-    scanf("\n%s",codigo2);                                                                // Armazena o valor do código da carta na variável código2
+    scanf(" \n%s",codigo2);                                                                // Armazena o valor do código da carta na variável código2
     
     printf("Nome da cidade: ");                                                           // Pede ao usuário o nome da cidade
     scanf("\n%s",cidade2);                                                              // Armazena o valor de cidade na variável cidade2
@@ -89,10 +89,10 @@
     scanf("\n%d",&populacao2);                                                        // Armazena o valor de população na variável população2
 
 
-    printf("Área: ");                                                                   //Pede ao usuário o número da área da cidade 
+    printf("Área:");                                                                   //Pede ao usuário o número da área da cidade 
     scanf("\n%f",&area2);                                                             // Armazena o valor da área da cidade na variável área2
 
-    printf("PIB: ");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
+    printf("PIB:");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("\n %f",&PIB2);                                                           //Armazena o valor de PIB  em PIB2
 
 
