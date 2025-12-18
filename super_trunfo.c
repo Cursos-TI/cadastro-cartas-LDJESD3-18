@@ -35,11 +35,11 @@
     
 
     printf("População:");                                                               //Pede ao usuário o número de habitantes da cidade
-    scanf("\n%d",&populacao1);                                                        // Armazena o valor de população na variável população1
+    scanf(" \n%d",&populacao1);                                                        // Armazena o valor de população na variável população1
 
 
     printf("Área:");                                                                   //Pede ao usuário o número da área da cidade 
-    scanf("\n%f",&area1);                                                             // Armazena o valor da área da cidade na variável área1
+    scanf(" \n%f",&area1);                                                             // Armazena o valor da área da cidade na variável área1
 
     printf("PIB:");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("\n%f",&PIB1);                                                           //Armazena o valor de PIB  em PIB1
@@ -54,11 +54,11 @@
     
     printf("Carta 1:\n");                                                       //Mostra a palavra carta 1
 
-    printf("Estado:%c\n",letra1);                                              // Mostra a palavra estado e o valor dela
+    printf("Estado:%c \n",letra1);                                              // Mostra a palavra estado e o valor dela
     
-    printf("Código da carta 1:%s\n",codigo1);                                 //Mostra a palavra código de carta e o valor dela
+    printf("Código da carta 1:%s \n",codigo1);                                 //Mostra a palavra código de carta e o valor dela
 
-    printf("Nome da cidade:%s\n",cidade1);                                   //Mostra a palavra nome da cidade e  o valor dela
+    printf("Nome da cidade:%s \n",cidade1);                                   //Mostra a palavra nome da cidade e  o valor dela
 
     printf("População:%d\n",populacao1);                                    //Mostra a palavra população e o valor dela
 
