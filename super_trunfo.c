@@ -68,11 +68,11 @@
 
     printf("Super Trunfo em C\n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 2:\n");                                                                     //  Mostra na tela  a carta 2 
-    printf("Estado:  ,\n");                                                                        // Pede ao usúario a letra do estado
-    scanf("%c",&letra2);                                                                  // Armazena o valor de Estado na variável letra2
+    printf("Estado:  ");                                                                        // Pede ao usúario a letra do estado
+    scanf("\n%c",&letra2);                                                                  // Armazena o valor de Estado na variável letra2
   
-    printf("Código da carta:  ,\n");                                                         // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
-    scanf("%s",codigo2);                                                                                     // Armazena o valor do código da carta na variável código2
+    printf("Código da carta: ");                                                         // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
+    scanf("\n%s",codigo2);                                                                                     // Armazena o valor do código da carta na variável código2
     
     printf("Nome da cidade:  \n");                                                          // Pede ao usuário o nome da cidade
     scanf("%s",cidade2);                                                                               // Armazena o valor de cidade na variável cidade2
