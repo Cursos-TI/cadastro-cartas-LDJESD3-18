@@ -31,22 +31,22 @@
     scanf("%s\n",codigo1);                                                                // Armazena o valor do código da carta na variável código1
     
     printf("Nome da cidade: ");                                                           // Pede ao usuário o nome da cidade
-    scanf(" %s\n",cidade1);                                                              // Armazena o valor de cidade na variável cidade1
+    scanf("%s\n",cidade1);                                                              // Armazena o valor de cidade na variável cidade1
     
     printf("População:");                                                               //Pede ao usuário o número de habitantes da cidade
-    scanf(" %d\n",&populacao1);                                                        // Armazena o valor de população na variável população1
+    scanf("%d\n",&populacao1);                                                        // Armazena o valor de população na variável população1
 
     printf("Área:");                                                                   //Pede ao usuário o número da área da cidade 
-    scanf(" %f\n",&area1);                                                             // Armazena o valor da área da cidade na variável área1
+    scanf("%f\n",&area1);                                                             // Armazena o valor da área da cidade na variável área1
 
     printf("PIB:");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
-    scanf(" %f\n",&PIB1);                                                           //Armazena o valor de PIB  em PIB1
+    scanf("%f\n",&PIB1);                                                           //Armazena o valor de PIB  em PIB1
 
 
     printf("Números de pontos turísticos:");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
-    scanf(" %d\n",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
+    scanf("%d\n",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
 
-    printf("\n \n");                                                            // faz um espaçamento
+    printf("\n ");                                                            // faz um espaçamento
     
     
     printf("Carta 1:\n");                                                       //Mostra a palavra carta 1
@@ -75,22 +75,22 @@
     scanf("%c\n",&letra2);                                                                  // Armazena o valor de Estado na variável letra2
 
 
-    printf("Código da carta: ");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
+    printf("Código da carta:");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
     scanf(" %s\n",codigo2);                                                                // Armazena o valor do código da carta na variável código2
     
-    printf("Nome da cidade: ");                                                           // Pede ao usuário o nome da cidade
-    scanf(" %s \n",cidade2);                                                              // Armazena o valor de cidade na variável cidade2
+    printf("Nome da cidade:");                                                           // Pede ao usuário o nome da cidade
+    scanf(" %s\n",cidade2);                                                              // Armazena o valor de cidade na variável cidade2
     
 
-    printf("População: ");                                                               //Pede ao usuário o número de habitantes da cidade
-    scanf(" %d \n",&populacao2);                                                        // Armazena o valor de população na variável população2
+    printf("População:");                                                               //Pede ao usuário o número de habitantes da cidade
+    scanf(" %d\n",&populacao2);                                                        // Armazena o valor de população na variável população2
 
 
     printf("Área:");                                                                   //Pede ao usuário o número da área da cidade 
-    scanf(" %f \n",&area2);                                                             // Armazena o valor da área da cidade na variável área2
+    scanf(" %f\n",&area2);                                                             // Armazena o valor da área da cidade na variável área2
 
     printf("PIB:");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
-    scanf(" %f \n",&PIB2);                                                           //Armazena o valor de PIB  em PIB2
+    scanf(" %f\n",&PIB2);                                                           //Armazena o valor de PIB  em PIB2
 
 
 
