@@ -53,7 +53,7 @@
     printf("\n");
 
 
-    printf("\n ,\n");                                                            // faz um espaçamento
+    printf("\n \n");                                                            // faz um espaçamento
     
     
     printf("Carta 1:\n");                                                       //Mostra a palavra carta 1
@@ -72,7 +72,7 @@
  
     printf("Número de pontos turísticos: %d\n",pontos_turisticos1);        //Mostra a palavra Números de pontos turísticos
 
-    printf("\n, \n");                                                                             // faz um espaçamento
+    printf("\n \n");                                                                             // faz um espaçamento
     
 
 
