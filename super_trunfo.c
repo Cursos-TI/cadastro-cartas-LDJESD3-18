@@ -101,8 +101,7 @@
     scanf("%f",&PIB2);   
     printf("\n");                                                        //Armazena o valor de PIB  em PIB2
 
-
-
+    
     printf("Números de pontos turísticos: ");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%d",&pontos_turisticos2);
     printf("\n");                                           //Armazena o valor de pontos turísticos em pontos_turísticos2
