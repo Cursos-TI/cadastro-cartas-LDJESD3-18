@@ -24,7 +24,8 @@
     printf("Super Trunfo em C\n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 1:\n");                                                                     //  Mostra na tela  a carta 1 
     printf("Estado: ");                                                                       // Pede ao usúario a letra do estado
-    scanf("%c",&letra1);                                                                  // Armazena o valor de Estado na variável letra1
+    scanf("%c",&letra1); 
+    printf("\n");                                                                 // Armazena o valor de Estado na variável letra1
 
 
     printf("Código da carta:");                                                         // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
@@ -36,7 +37,8 @@
     printf("\n");
 
     printf("População:");                                                              //Pede ao usuário o número de habitantes da cidade
-    scanf("%d",&populacao1);                                                        // Armazena o valor de população na variável população1
+    scanf("%d",&populacao1);
+    printf("\n");                                                        // Armazena o valor de população na variável população1
 
     printf("Área:");                                                                 //Pede ao usuário o número da área da cidade 
     scanf("%f",&area1); 
@@ -101,7 +103,7 @@
     scanf("%f",&PIB2);   
     printf("\n");                                                        //Armazena o valor de PIB  em PIB2
 
-    
+
     printf("Números de pontos turísticos: ");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%d",&pontos_turisticos2);
     printf("\n");                                           //Armazena o valor de pontos turísticos em pontos_turísticos2
