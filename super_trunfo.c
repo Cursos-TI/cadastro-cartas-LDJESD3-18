@@ -27,7 +27,6 @@
     scanf("%c",&letra1); 
     printf("\n");                                                                 // Armazena o valor de Estado na variável letra1
 
-
     printf("Código da carta:");                                                         // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
     scanf("%s",codigo1);                                                                // Armazena o valor do código da carta na variável código1
     printf("\n");
@@ -52,9 +51,7 @@
     scanf("%d",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
     printf("\n");
 
-
     printf("\n \n");                                                            // faz um espaçamento
-    
     
     printf("Carta 1:\n");                                                       //Mostra a palavra carta 1
 
@@ -74,7 +71,6 @@
 
     printf("\n \n");                                                                             // faz um espaçamento
     
-
 
     printf("Super Trunfo em C\n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 2:\n");                                                                     //  Mostra na tela  a carta 2 
@@ -102,7 +98,6 @@
     printf("PIB: ");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%f",&PIB2);   
     printf("\n");                                                        //Armazena o valor de PIB  em PIB2
-
 
     printf("Números de pontos turísticos: ");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%d",&pontos_turisticos2);
