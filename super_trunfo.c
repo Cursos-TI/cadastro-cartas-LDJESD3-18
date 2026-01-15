@@ -10,7 +10,7 @@
     float área1;                                                                                            //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
     float densidade_populacional1;                                                                        //Declara o formato da variável densiade_populacional1(número de ponto flutuante)
-    float PIB_per1;                                                                                      //Declara o formato da variável PIB_per1(número de ponto fluante)
+    float PIB_per1;                                                                                        //Declara o formato da variável PIB_per1(número de ponto fluante)
     char letra2;                                                                                          //Declara o formato da variável letra2 como char(caractere)
     char codigo2[20];                                                                                    //Declara o formato da variável código2 como char[](string ou array sequência de caracteres)
     char cidade2[20];                                                                                   //Declara o formato da variável cidade2 como  char[](string ou array,sequência de caracteres)
@@ -20,7 +20,7 @@
     float área2;                                                                                    //Declara o formato da variável área2 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos2;                                                                        //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
     float densidade_populacional2;                                                                //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
-    float PIB_per1;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
+    float PIB_per2;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
     
 
 
