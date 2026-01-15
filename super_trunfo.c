@@ -48,9 +48,8 @@
     scanf(" %d",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
 
 
-    densidade_populacional1 = populacao1/area1;                                 //Calcula  a densidade populacional da carta 1
-    PIB_per1= PIB1 /populacao1;                                               //Calcula  o PIB Per Capita da carta 1
-  
+    densidade_populacional1 = (float)populacao1/area1;                        //Converte os valores de populacao1 e area1 para float e Calcula  a densidade populacional da carta 1
+    PIB_per1= (float)PIB1/populacao1;                                        //Converte os valores de PIB1  e populacao1 para float e Calcula o PIB Per Capita
   
 
     printf("\n \n");                                                               // faz um espaçamento
