@@ -48,7 +48,7 @@
     scanf(" %d",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
 
 
-    densidade_populacional1 = (float)populacao1/area1;                        //Converte os valores de populacao1 e calcula  a densidade populacional da carta 1
+    densidade_populacional1 = (float)populacao1/area1;                        //Converte os valores de populacao1 para float e calcula  a densidade populacional da carta 1
     PIB_per1= PIB1/(float)populacao1;                                        //Converte os valores de populacao1 para float e calcula o PIB Per Capita
   
 
@@ -72,7 +72,7 @@
 
     printf("Densidade populacional: %.2f hab/km\n",densidade_populacional1);  //Mostra a expressão densidade populacional e o seu valor 
   
-     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
+    printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
 
     printf("\n \n");                                                      // faz um espaçamento
@@ -101,10 +101,13 @@
     printf("Números de pontos turísticos:\n");        //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf(" %d",&pontos_turisticos2);                //Armazena o valor de pontos turísticos em pontos_turísticos2
 
+    densidade_populacional2 = (float)populacao2/area2;                   //Converte os valores de populacao2 para float e calcula  a densidade populacional da carta 1
+    PIB_per2= PIB2/(float)populacao2;                                    //Converte os valores de populacao2 para float e calcula o PIB Per Capita
+
   
 
 
-    printf("\n \n");                               // faz um espaçamento
+    printf("\n \n");                                                      // faz um espaçamento
     
 
 
@@ -124,6 +127,15 @@
     printf("PIB 1:%.2f bilhões de reais\n",PIB2);                           //Mostra a palavra PIB e o valor dela 
  
     printf("Número de pontos turísticos:%d\n",pontos_turisticos2);        //Mostra a palavra Números de pontos turísticos
+
+    printf("Densidade populacional: %.2f hab/km\n",densidade_populacional2);  //Mostra a expressão densidade populacional e o seu valor 
+  
+    printf("PIB Per Capita: %.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
+
+
+
+
+   
 
 
 
