@@ -70,9 +70,9 @@
  
     printf("Número de pontos turísticos: %d\n",pontos_turisticos1);          //Mostra a palavra Números de pontos turísticos
 
-    printf("Densidade populacional:%.2f hab/km\n",densidade_populacional1);  //Mostra a expressão densidade populacional e o seu valor 
+    printf("Densidade populacional: %.2f hab/km\n",densidade_populacional1);  //Mostra a expressão densidade populacional e o seu valor 
   
-     printf("PIB Per Capita:%.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
+     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
 
     printf("\n \n");                                                      // faz um espaçamento
