@@ -26,8 +26,7 @@
     printf("Estado:");
     printf("\n") ;                                                                              // Pede ao usúario a letra do estado
     scanf(" %c",&letra1);                                                                      // Armazena o valor de Estado na variável letra1
-    printf("\n");
-    
+
     printf("Código da carta:");                                                              // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
     printf("\n");                                                                          
     scanf(" %s",codigo1);                                                                  // Armazena o valor do código da carta na variável código1
