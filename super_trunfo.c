@@ -9,6 +9,8 @@
     float PIB1;                                                                                              //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))  
     float área1;                                                                                            //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
+    float densidade_populacional1;                                                                        //Declara o formato da variável densiade_populacional1(número de ponto flutuante)
+    float PIB_per1;                                                                                      //Declara o formato da variável PIB_per1(número de ponto fluante)
     char letra2;                                                                                          //Declara o formato da variável letra2 como char(caractere)
     char codigo2[20];                                                                                    //Declara o formato da variável código2 como char[](string ou array sequência de caracteres)
     char cidade2[20];                                                                                   //Declara o formato da variável cidade2 como  char[](string ou array,sequência de caracteres)
@@ -17,8 +19,9 @@
     float PIB2;                                                                                      //Declara o formato da variável PIB2 como float (número de ponto fluante(número com casas decimais))  
     float área2;                                                                                    //Declara o formato da variável área2 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos2;                                                                        //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
-
-
+    float densidade_populacional2;                                                                //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
+    float PIB_per1;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
+    
 
 
     printf("Super Trunfo em C\n");                                                                // Mostra na tela o nome do jogo
@@ -43,27 +46,37 @@
    
     printf("Números de pontos turísticos:\n");                                   //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf(" %d",&pontos_turisticos1);                                           //Armazena o valor de pontos turísticos em pontos_turísticos1
+
+
+    densidade_populacional1 = populacao1/area1;                                 //Calcula  a densidade populacional da carta 1
+    PIB_per1= PIB1 /populacao1;                                               //Calcula  o PIB Per Capita da carta 1
+  
   
 
-    printf("\n \n");                                                           // faz um espaçamento
+    printf("\n \n");                                                               // faz um espaçamento
     
-    printf("Carta 1:\n");                                                     //Mostra a palavra carta 1
+    printf("Carta 1:\n");                                                          //Mostra a palavra carta 1
 
-    printf("Estado: %c\n",letra1);                                           // Mostra a palavra estado e o valor dela
+    printf("Estado: %c\n",letra1);                                                // Mostra a palavra estado e o valor dela
     
-    printf("Código da carta 1: %s\n",codigo1);                              //Mostra a palavra código de carta e o valor dela
-
-    printf("Nome da cidade: %s\n",cidade1);                                //Mostra a palavra nome da cidade e  o valor dela
-
-    printf("População: %d\n",populacao1);                                 //Mostra a palavra população e o valor dela
-
-    printf("Área: %.2f km²\n",area1);                                    //Mostra a palavra área e o valor dela
-
-    printf("PIB 1: %.2f bilhões de reais\n",PIB1);                      //Mostra a palavra PIB e o valor dela 
+    printf("Código da carta 1: %s\n",codigo1);                                   //Mostra a palavra código de carta e o valor dela
  
-    printf("Número de pontos turísticos: %d\n",pontos_turisticos1);    //Mostra a palavra Números de pontos turísticos
+    printf("Nome da cidade: %s\n",cidade1);                                     //Mostra a palavra nome da cidade e  o valor dela
 
-    printf("\n \n");                                                  // faz um espaçamento
+    printf("População: %d\n",populacao1);                                     //Mostra a palavra população e o valor dela
+
+    printf("Área: %.2f km²\n",area1);                                         //Mostra a palavra área e o valor dela
+
+    printf("PIB 1: %.2f bilhões de reais\n",PIB1);                           //Mostra a palavra PIB e o valor dela 
+ 
+    printf("Número de pontos turísticos: %d\n",pontos_turisticos1);          //Mostra a palavra Números de pontos turísticos
+
+    printf("Densidade populacional:%.2f hab/km\n",densidade_populacional1);  //Mostra a expressão densidade populacional e o seu valor 
+  
+     printf("PIB Per Capita:%.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
+
+
+    printf("\n \n");                                                      // faz um espaçamento
     
 
     printf("Super Trunfo em C\n");                                   // Mostra na tela o nome do jogo
