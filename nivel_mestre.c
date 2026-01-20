@@ -42,7 +42,7 @@
     scanf(" %s",cidade1);                                                                // Armazena o valor de cidade na variável cidade1
   
     printf("População:\n");                                                             //Pede ao usuário o número de habitantes da cidade
-    scanf("%f",&populacao1);                                                          // Armazena o valor de população na variável população1
+    scanf("%lu",&populacao1);                                                          // Armazena o valor de população na variável população1
 
     printf("Área:\n");                                                                //Pede ao usuário o número da área da cidade 
     scanf(" %f",&area1);                                                             // Armazena o valor da área da cidade na variável área1
@@ -73,7 +73,7 @@
  
     printf("Nome da cidade: %s\n",cidade1);                                     //Mostra a palavra nome da cidade e  o valor dela
 
-    printf("População: %d\n",populacao1);                                     //Mostra a palavra população e o valor dela
+    printf("População:%lu \n",populacao1);                                     //Mostra a palavra população e o valor dela
 
     printf("Área: %.2f km²\n",area1);                                         //Mostra a palavra área e o valor dela
 
@@ -104,7 +104,7 @@
     scanf(" %s",cidade2);                                     // Armazena o valor de cidade na variável cidade2
     
     printf("População:\n");                                  //Pede ao usuário o número de habitantes da cidade
-    scanf(" %f",&populacao2);                               // Armazena o valor de população na variável população2
+    scanf(" %lu",&populacao2);                               // Armazena o valor de população na variável população2
 
     printf("Área:\n");                                     //Pede ao usuário o número da área da cidade 
     scanf(" %f",&area2);                                  // Armazena o valor da área da cidade na variável área2
@@ -134,7 +134,7 @@
 
     printf("Nome da cidade:%s\n",cidade2);                                       //Mostra a palavra nome da cidade e  o valor dela
 
-    printf("População:%d\n",populacao2);                                        //Mostra a palavra população e o valor dela
+    printf("População:%lu\n",populacao2);                                        //Mostra a palavra população e o valor dela
 
     printf("Área:%.2f km²\n",area2);                                          //Mostra a plavra área e o valor dela
 
