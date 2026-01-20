@@ -10,7 +10,9 @@
     int pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
     float densidade_populacional1;                                                                        //Declara o formato da variável densidade_populacional1(número de ponto flutuante)
     float PIB_per1;                                                                                      //Declara o formato da variável PIB_per1(número de ponto fluante)
-    unsigned long int super_poder1;                                                                      //Declara o formato da variável super_poder1(número inteiro positivo muito grande)
+    float  super_poder1;                                                                      //Declara o formato da variável super_poder1(número inteiro positivo muito grande)
+   
+
     char letra2;                                                                                        //Declara o formato da variável letra2 como char(caractere)
     char codigo2[20];                                                                                  //Declara o formato da variável código2 como char[](string ou array sequência de caracteres)
     char cidade2[20];                                                                                 //Declara o formato da variável cidade2 como  char[](string ou array,sequência de caracteres)
@@ -20,7 +22,10 @@
     int pontos_turisticos2;                                                                        //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
     float densidade_populacional2;                                                                //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
     float PIB_per2;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
-    unsigned long int super_poder2;                                                             //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )                 
+    unsigned long int super_poder2;                                                             //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
+    
+    
+
                                                                             
                                                                                                 
 
@@ -51,6 +56,11 @@
 
     densidade_populacional1 = (float)populacao1/area1;                        //Converte os valores de populacao1 para float e calcula  a densidade populacional da carta 1
     PIB_per1= PIB1/(float)populacao1;                                        //Converte os valores de populacao1 para float e calcula o PIB Per Capita
+
+   super_poder1 = (float)populacao1 + (float)area1 +(float)PIB1 +(float) pontos_turisticos1+(float)densidade_populacional1 +(float)PIB_per1;  //Converte os valores para float e soma as características da carta1,exceto código,estado e nome da cidade
+    
+
+
   
 
     printf("\n \n");                                                               // faz um espaçamento
@@ -75,6 +85,9 @@
   
     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
+    printf("Super Poder :%2.f",super_poder1)
+ 
+    
 
     printf("\n \n");                                                      // faz um espaçamento
     
