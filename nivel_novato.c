@@ -64,11 +64,13 @@
     printf("Número de pontos turísticos:%d\n",pontos_turisticos1);                            //Mostra a palavra Números de pontos turísticos
 
 
-    printf("\n \n");
+    printf("\n\n");
 
+
+    printf("Super Trunfo em C \n");                                                                 // Mostra na tela o nome do jogo
     printf("Carta 2:\n");                                                                            //Mostra a palavra carta                                                                      
     printf("Estado:\n");                                                                           // Pede ao usúario a letra do estado
-    scanf("%c",&letra2);                                                                          // Armazena o valor de estado na variável letra2
+    scanf(" %c",&letra2);                                                                          // Armazena o valor de estado na variável letra2
 
     printf("Código da carta:\n");                                                                // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
     scanf("%s",codigo2);                                                                        // Armazena o valor do código da carta na variável código1
