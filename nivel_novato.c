@@ -66,12 +66,12 @@
 
     printf("\n \n");
 
-    printf("Carta 2:\n");                                                                       //Mostra a palavra carta 
-    printf("Estado:\n");                                                                       // Pede ao usuário a letra do estado
-    scanf("%c",&letra2);                                                                      //Armazena o valor de estado na variável letra02
+    printf("Carta 2:\n");                                                                            //Mostra a palavra carta                                                                      
+    printf("Estado:\n");                                                                           // Pede ao usúario a letra do estado
+    scanf("%c",&letra2);                                                                          // Armazena o valor de estado na variável letra2
 
-    printf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
-    scanf("%s",codigo2);                                                                   // Armazena o valor do código da carta na variável código1
+    printf("Código da carta:\n");                                                                // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
+    scanf("%s",codigo2);                                                                        // Armazena o valor do código da carta na variável código1
     
     printf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
     scanf("%s",&cidade2);                                                                    // Armazena o valor de cidade na variável cidade1
@@ -114,6 +114,9 @@
     
 
 
+printf("Carta 1:\n");                                                                          //  Mostra na tela  a carta 1 
+    printf("Estado:\n");                                                                           // Pede ao usúario a letra do estado
+    scanf("%c",&letra1);                                                                          // Armazena o valor de estado na variável letra1
 
 
 
