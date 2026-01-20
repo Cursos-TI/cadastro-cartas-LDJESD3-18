@@ -27,7 +27,7 @@
     scanf("%s",codigo1);                                                                      // Armazena o valor do código da carta na variável código1
     
     printf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
-    scanf("%s",&cidade1);                                                                    // Armazena o valor de cidade na variável cidade1
+    scanf("%s",cidade1);                                                                    // Armazena o valor de cidade na variável cidade1
     
 
     printf("População:\n");                                                                //Pede ao usuário o número de habitantes da cidade
@@ -76,7 +76,7 @@
     scanf("%s",codigo2);                                                                        // Armazena o valor do código da carta na variável código1
     
     printf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
-    scanf("%s",&cidade2);                                                                    // Armazena o valor de cidade na variável cidade1
+    scanf("%s",cidade2);                                                                    // Armazena o valor de cidade na variável cidade1
     
 
     printf("População:\n");                                                                //Pede ao usuário o número de habitantes da cidade
