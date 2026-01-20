@@ -85,7 +85,7 @@
   
     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
-    printf("Super Poder :%2.f",super_poder1);
+    printf("Super Poder :%2.f",super_poder1);                             
  
     
 
@@ -104,7 +104,7 @@
     scanf(" %s",cidade2);                                     // Armazena o valor de cidade na variável cidade2
     
     printf("População:\n");                                  //Pede ao usuário o número de habitantes da cidade
-    scanf(" %d",&populacao2);                               // Armazena o valor de população na variável população2
+    scanf(" %f",&populacao2);                               // Armazena o valor de população na variável população2
 
     printf("Área:\n");                                     //Pede ao usuário o número da área da cidade 
     scanf(" %f",&area2);                                  // Armazena o valor da área da cidade na variável área2
