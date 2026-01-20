@@ -1,4 +1,4 @@
-#include<stdio.h>                                                                                                    // Acessa a Biblioteca,que faz com que haja entrada e saída de dados
+#include<stdio.h>                                                                                              // Acessa a Biblioteca,que faz com que haja entrada e saída de dados
 
   int main(){                                                                                                      // Função para que o programa funcione
     char letra1;                                                                                                  //Declara o formato da variável letra1 como char(caractere)
