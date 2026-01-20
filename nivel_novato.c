@@ -13,7 +13,7 @@
     printf("Super Trunfo em C \n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 1:\n");                                                                      //  Mostra na tela  a carta 1 
     printf("Estado:\n");                                                                       // Pede ao usúario a letra do estado
-    scanf("%c",letra1);                                                                      // Armazena o valor de Estado na variável letra1
+    scanf("%c",&letra1);                                                                      // Armazena o valor de Estado na variável letra1
 
 
     prinf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
