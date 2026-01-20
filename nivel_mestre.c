@@ -22,7 +22,7 @@
     int pontos_turisticos2;                                                                        //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
     float densidade_populacional2;                                                                //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
     float PIB_per2;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
-    float super_poder2;                                                             //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
+    float super_poder2;                                                                         //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
     
     
 
@@ -85,7 +85,7 @@
   
     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
-    printf("Super Poder :%2.f",super_poder1);                             
+    printf("Super Poder:%2f",super_poder1);                             
  
     
 
