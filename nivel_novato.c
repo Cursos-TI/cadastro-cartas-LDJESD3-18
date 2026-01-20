@@ -68,7 +68,7 @@
 
     printf("Carta 2:\n");                                                                         //Mostra a palavra carta 
 
-    printf("Estado:%c\n",letra2);                                                              // Mostra a palavra estado e o valor dela
+    printf("Estado:\n");                                                              // Mostra a palavra estado e o valor dela
     scanf("%c",&letra2);
 
     printf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
