@@ -116,11 +116,6 @@
     
 
 
-printf("Carta 1:\n");                                                                          //  Mostra na tela  a carta 1 
-    printf("Estado:\n");                                                                           // Pede ao usúario a letra do estado
-    scanf("%c",&letra1);                                                                          // Armazena o valor de estado na variável letra1
-
-
 
 
 
