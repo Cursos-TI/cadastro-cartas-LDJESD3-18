@@ -42,7 +42,7 @@
     scanf(" %s",cidade1);                                                                // Armazena o valor de cidade na variável cidade1
   
     printf("População:\n");                                                             //Pede ao usuário o número de habitantes da cidade
-    scanf(" %d",&populacao1);                                                          // Armazena o valor de população na variável população1
+    scanf("%f",&populacao1);                                                          // Armazena o valor de população na variável população1
 
     printf("Área:\n");                                                                //Pede ao usuário o número da área da cidade 
     scanf(" %f",&area1);                                                             // Armazena o valor da área da cidade na variável área1
