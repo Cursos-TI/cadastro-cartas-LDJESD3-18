@@ -17,19 +17,6 @@
     int pontos_turisticos2;                                                                      //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     printf("Super Trunfo em C \n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 1:\n");                                                                      //  Mostra na tela  a carta 1 
@@ -71,17 +58,59 @@
 
     printf("População:%d\n",populacao1);                                     //Mostra a palavra população e o valor dela
 
-    printf("Área:%f\n",área1);                                              //Mostra a plavra área e o valor dela
+    printf("Área:%f\n",area1);                                              //Mostra a plavra área e o valor dela
 
     printf("PIB 1:%f\n",PIB1);                                             //Mostra a palavra PIB e o valor dela 
  
     printf("Número de pontos turísticos:%d\n",pontos_turisticos1);        //Mostra a palavra Números de pontos turísticos
 
 
+    printf("\n \n");
+
+
+    printf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
+    scanf("%c",&codigo2);                                                                   // Armazena o valor do código da carta na variável código1
+    
+    printf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
+    scanf("%s",&cidade2);                                                                    // Armazena o valor de cidade na variável cidade1
     
 
+    printf("População:\n");                                                                //Pede ao usuário o número de habitantes da cidade
+    scanf("%d",&populacao2);                                                               // Armazena o valor de população na variável população1
 
-  
+
+    printf("Área:\n");                                                                   //Pede ao usuário o número da área da cidade 
+    scanf("%f",&area2);                                                                  // Armazena o valor da área da cidade na variável área1
+
+    printf("PIB:\n");                                                                  //Pede ao usuário o número do Produto Interno Produto(PIB) 
+    scanf("%f",&PIB2);                                                                 //Armazena o valor de PIB  em PIB1
+
+
+
+    printf("Números de pontos turísticos:\n");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
+    scanf("%d",&pontos_turisticos2);                                                //Armazena o valor de pontos turísticos em pontos_turísticos1
+
+
+    
+    printf("Carta 2:\n");                                                        //Mostra a palavra carta 
+
+    printf("Estado:%c\n",letra2);                                               // Mostra a palavra estado e o valor dela
+    
+    printf("Código da carta 1:%c\n",codigo2);                                  //Mostra a palavra código de carta e o valor dela
+
+    printf("Nome da cidade:%s\n",cidade2);                                    //Mostra a palavra nome da cidade e  o valor dela
+
+    printf("População:%d\n",populacao2);                                     //Mostra a palavra população e o valor dela
+
+    printf("Área:%f\n",area2);                                              //Mostra a plavra área e o valor dela
+
+    printf("PIB 1:%f\n",PIB2);                                             //Mostra a palavra PIB e o valor dela 
+ 
+    printf("Número de pontos turísticos:%d\n",pontos_turisticos2);        //Mostra a palavra Números de pontos turísticos
+
+
+    
+
 
 
 
