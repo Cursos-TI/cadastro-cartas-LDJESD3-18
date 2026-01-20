@@ -7,8 +7,29 @@
     int populacao1;                                                                                  //Declara o formato da variável população1 como int (número inteiro decimal))
     float area1;                                                                                    //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
     float PIB1;                                                                                    //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))  
-    float área1;                                                                                  //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos1;                                                                      //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
+    char letra2;                                                                                        //Declara o formato da variável letra1 como char(caractere)
+    char codigo2[20];                                                                                  //Declara o formato da variável código1 como char[](string ou array sequência de caracteres)
+    char cidade2[20];                                                                                 //Declara o formato da variável cidade1 como  char[](string ou array,sequência de caracteres)
+    int populacao2;                                                                                  //Declara o formato da variável população1 como int (número inteiro decimal))
+    float area2;                                                                                    //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
+    float PIB2;                                                                                    //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))                                                                                   //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
+    int pontos_turisticos2;                                                                      //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     printf("Super Trunfo em C \n");                                                             // Mostra na tela o nome do jogo
     printf("Carta 1:\n");                                                                      //  Mostra na tela  a carta 1 
@@ -16,10 +37,10 @@
     scanf("%c",&letra1);                                                                      // Armazena o valor de Estado na variável letra1
 
 
-    prinf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
+    printf("Código da carta:\n");                                                            // Pede ao usuário o código da carta(sequência formada pela letra do estado e sequência de 01 a 04(ex;A01)  )
     scanf("%c",&codigo1);                                                                   // Armazena o valor do código da carta na variável código1
     
-    prinf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
+    printf("Nome da cidade:\n");                                                              // Pede ao usuário o nome da cidade
     scanf("%s",&cidade1);                                                                    // Armazena o valor de cidade na variável cidade1
     
 
