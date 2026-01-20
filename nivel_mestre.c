@@ -10,7 +10,7 @@
     int pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
     float densidade_populacional1;                                                                        //Declara o formato da variável densidade_populacional1(número de ponto flutuante)
     float PIB_per1;                                                                                      //Declara o formato da variável PIB_per1(número de ponto fluante)
-    float  super_poder1;                                                                      //Declara o formato da variável super_poder1(número inteiro positivo muito grande)
+    float super_poder1;                                                                                 //Declara o formato da variável super_poder1(número inteiro positivo muito grande)
    
 
     char letra2;                                                                                        //Declara o formato da variável letra2 como char(caractere)
@@ -22,7 +22,7 @@
     int pontos_turisticos2;                                                                        //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
     float densidade_populacional2;                                                                //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
     float PIB_per2;                                                                              //Declara o formato da variável PIB_per2(número de ponto fluante)
-    unsigned long int super_poder2;                                                             //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
+    float super_poder2;                                                             //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
     
     
 
