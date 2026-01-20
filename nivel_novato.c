@@ -58,9 +58,9 @@
 
     printf("População:%d\n",populacao1);                                     //Mostra a palavra população e o valor dela
 
-    printf("Área:%f\n",area1);                                              //Mostra a plavra área e o valor dela
+    printf("Área:%.2f km²\n",area1);                                              //Mostra a plavra área e o valor dela
 
-    printf("PIB 1:%f\n",PIB1);                                             //Mostra a palavra PIB e o valor dela 
+    printf("PIB 1:%.2f bilhões de reais\n",PIB1);                                             //Mostra a palavra PIB e o valor dela 
  
     printf("Número de pontos turísticos:%d\n",pontos_turisticos1);        //Mostra a palavra Números de pontos turísticos
 
@@ -102,9 +102,9 @@
 
     printf("População:%d\n",populacao2);                                     //Mostra a palavra população e o valor dela
 
-    printf("Área:%f\n",area2);                                              //Mostra a plavra área e o valor dela
+    printf("Área:%.2f km²\n",area2);                                              //Mostra a plavra área e o valor dela
 
-    printf("PIB 1:%f\n",PIB2);                                             //Mostra a palavra PIB e o valor dela 
+    printf("PIB 1:%.2f bilhões de reais\n",PIB2);                                             //Mostra a palavra PIB e o valor dela 
  
     printf("Número de pontos turísticos:%d\n",pontos_turisticos2);        //Mostra a palavra Números de pontos turísticos
 
