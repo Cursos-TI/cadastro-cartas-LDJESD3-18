@@ -92,8 +92,7 @@
     printf("Densidade populacional: %.2f hab/km²\n",densidade_populacional1);                         //Mostra a expressão densidade populacional e o seu valor 
   
     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                                                 //Mostra a expressão PIB per Capita e o seu valor 
-
-    printf("Super Poder:%2.f",super_poder1);                             
+                            
  
     
 
@@ -156,10 +155,9 @@
     printf("Densidade populacional:%.2f hab/km² \n",densidade_populacional2); //Mostra a expressão densidade populacional e o seu valor 
   
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
-
-    printf("Super Poder:%2f",super_poder2);                             
+                            
  
-    printf("\n \n");                                                                             //faz um espaçamento
+    printf("\n \n");                                                                          //faz um espaçamento
 
     comparacao_populacao = populacao1 > populacao2;                                          // compara o valor da população de cada carta e armazena o valor
     comparacao_area= area1 > area2  ;                                                       //compara o valor da área de cada carta e armazena o valor
