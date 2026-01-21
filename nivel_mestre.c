@@ -57,7 +57,7 @@
     densidade_populacional1 = (float)populacao1/area1;                        //Converte os valores de populacao1 para float e calcula  a densidade populacional da carta 1
     PIB_per1= PIB1/(float)populacao1;                                        //Converte os valores de populacao1 para float e calcula o PIB Per Capita
 
-   super_poder1 = (float)populacao1 + (float)area1 +(float)PIB1 +(float) pontos_turisticos1+((float)densidade_populacional1/1 )+(float)PIB_per1;  //Converte os valores para float e soma as características da carta1,exceto código,estado e nome da cidade
+   super_poder1 = (float)populacao1 + (float)area1 +(float)PIB1 +(float) pontos_turisticos1+(float)(1/densidade_populacional1 )+(float)PIB_per1;  //Converte os valores para float e soma as características da carta1,exceto código,estado e nome da cidade
     
 
 
@@ -118,7 +118,7 @@
     densidade_populacional2 = (float)populacao2/area2;                   //Converte os valores de populacao2 para float e calcula  a densidade populacional da carta 1
     PIB_per2= PIB2/(float)populacao2;                                    //Converte os valores de populacao2 para float e calcula o PIB Per Capita
 
-    super_poder2 = (float)populacao2 + (float)area2 +(float)PIB2 +(float) pontos_turisticos2+((float)densidade_populacional2/1) +(float)PIB_per2;  //Converte os valores para float e soma as características da carta2,exceto código,estado e nome da cidade
+    super_poder2 = (float)populacao2 + (float)area2 +(float)PIB2 +(float) pontos_turisticos2+(float)(1/densidade_populacional2) +(float)PIB_per2;  //Converte os valores para float e soma as características da carta2,exceto código,estado e nome da cidade
     
     
   
