@@ -166,7 +166,7 @@
     comparacao_PIB= PIB1 > PIB2;                                                           //compara o valor do PIB de cada carta e armazena o valor
     comparacao_pontos = pontos_turisticos1 > pontos_turisticos2;                          // compara o valor dos pontos turísticos de cada carta e armazena o valor
     comparacao_densidade= (1/densidade_populacional1) > (1/densidade_populacional2);     //compara o valor da densidade populacional de cada carta e armazena o valor
-    comparacao_PIB= PIB_per1 > PIB_per2;                                                //compara o valor do PIB Per Capita de cada carta e armazena o valor
+    comparacao_capita= PIB_per1 > PIB_per2;                                             //compara o valor do PIB per Capita de cada carta e armazena o valor
     comparacao_super = super_poder1 > super_poder2;                                    // compara o valor do Super poder de cada carta e armazena o valor
 
     
