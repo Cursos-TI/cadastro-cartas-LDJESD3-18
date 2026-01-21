@@ -11,6 +11,7 @@
     float densidade_populacional1;                                                                        //Declara o formato da variável densidade_populacional1(número de ponto flutuante)
     float PIB_per1;                                                                                      //Declara o formato da variável PIB_per1(número de ponto fluante)
     float super_poder1;                                                                                 //Declara o formato da variável super_poder1(número inteiro positivo muito grande)
+    
    
 
     char letra2;                                                                                        //Declara o formato da variável letra2 como char(caractere)
@@ -20,11 +21,18 @@
     float area2;                                                                                    //Declara o formato da variável área2 como float (número de ponto fluante(número com casas decimais))  
     float PIB2;                                                                                    //Declara o formato da variável PIB2 como float (número de ponto fluante(número com casas decimais))  
     int pontos_turisticos2;                                                                       //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
-    float densidade_populacional2;                                                               //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
+    float densidade_populacional2;                                                               //Declara o formato da variável densidade_populacional2(número de ponto flutuante)
     float PIB_per2;                                                                             //Declara o formato da variável PIB_per2(número de ponto fluante)
     float super_poder2;                                                                        //Declara o formato da variável super_poder2(número inteiro positivo  muito grande )        
     
-    
+    int comparacao_populacao;                                                                 //Declara o formato da variável comparacao_populacao(número inteiro)
+    int comparacao_area;                                                                     //Declara o formato da variável comparacao_area(número inteiro)
+    int comparacao_PIB;                                                                     //Declara o formato da variável comparacao_PIB(número inteiro)
+    int comparacao_pontos;                                                                 //Declara o formato da variável comparacao_pontos(número inteiro)
+    int comparacao_densidade;                                                             //Declara o formato da variável comparacao_densidade(número inteiro)
+    int comparacao_capita;                                                            //Declara o formato da variável comparacao_capita(número inteiro)
+    int comparacao_super;                                                           //Declara o formato da variável comparacao_super(número inteiro)
+
 
                                                                             
                                                                                                 
