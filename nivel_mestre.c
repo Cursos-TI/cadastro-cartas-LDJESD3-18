@@ -151,9 +151,9 @@
 
     printf("PIB 1:%.2f bilhões de reais\n",PIB2);                           //Mostra a palavra PIB e o valor dela 
  
-    printf("Número de pontos turísticos:%d\n",pontos_turisticos2);        //Mostra a palavra Números de pontos turísticos
+    printf("Número de pontos turísticos:%d\n",pontos_turisticos2);         //Mostra a palavra Números de pontos turísticos
 
-    printf("Densidade populacional:%.2f hab/km² \n",densidade_populacional2);  //Mostra a expressão densidade populacional e o seu valor 
+    printf("Densidade populacional:%.2f hab/km² \n",densidade_populacional2); //Mostra a expressão densidade populacional e o seu valor 
   
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
 
@@ -165,9 +165,22 @@
     comparacao_area= area1 > area2  ;                                                       //compara o valor da área de cada carta e armazena o valor
     comparacao_PIB= PIB1 > PIB2;                                                           //compara o valor do PIB de cada carta e armazena o valor
     comparacao_pontos = pontos_turisticos1 > pontos_turisticos2;                          // compara o valor dos pontos turísticos de cada carta e armazena o valor
-    comparacao_densidade= densidade_populacional1 > densidade_populacional2 ;            //compara o valor da densidade populacional de cada carta e armazena o valor
+    comparacao_densidade= (1/densidade_populacional1) > (1/densidade_populacional2);     //compara o valor da densidade populacional de cada carta e armazena o valor
     comparacao_PIB= PIB_per1 > PIB_per2;                                                //compara o valor do PIB Per Capita de cada carta e armazena o valor
-    comparacao_super = super_poder1 > super_poder2;                                   // compara o valor do Super poder de cada carta e armazena o valor
+    comparacao_super = super_poder1 > super_poder2;                                    // compara o valor do Super poder de cada carta e armazena o valor
+
+    
+   printf("Comparação de Cartas:\n");                                                 //Mostra a expressão comparação de cartas
+   printf("Populaçao:Carta 1 venceu(%d)\n",comparacao_populacao);                    //Mostra a palavra  popoulação, a carta que venceu e o valor de comparacao_populacao
+   printf("Área:Carta 1 venceu(%d)\n",comparacao_area);                             //Mostra a palavra  área, a carta que venceu e o valor de comparacao_area                            
+   printf("PIB:Carta 1 venceu(%d)\n",comparacao_PIB);                              //Mostra a palavra  PIB, a carta que venceu e o valor de comparacao_PIB
+   printf("Pontos Turísticos:Carta 2 venceu(%d)\n",comparacao_pontos);            //Mostra a expressão  Pontos Turísticos , a carta que venceu e o valor de comparacao_pontos
+   printf("Densidade Populacional:Carta 1 venceu(%d)\n",comparacao_densidade);   //Mostra a expressão Densidade Populacional, a carta que venceu e o valor de comparacao_densidade
+   printf("PIB Per Capita:Carta 1 venceu(%d)\n",comparacao_capita);             //Mostra a expressão PIB Per Capita, a carta que venceu e o valor de comparacao_capita
+   printf("Super Poder:Carta 1 venceu(%d)\n",comparacao_super);                //Mostra a expressão Super Poder, a carta que venceu e o valor de comparacao_super
+
+  
+  
 
 
 
