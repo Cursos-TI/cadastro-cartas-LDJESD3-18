@@ -179,8 +179,13 @@
 
   
   
+   
 
-
+       // Valores para testar o programa:
+      //Carta 01
+     // Estado:A,Código da Carta:A01,Nome da Cidade:Recife,População:14444,Área:4000.0,PIB:50000.0,Pontos turísticos:1
+    // Carta 02
+   //Estado:C,Código da Carta:C02,Nome da Cidade:Alagoas,População:12000,Área:2000.0,PIB:24000.0,Pontos turísticos:2
 
      
 
