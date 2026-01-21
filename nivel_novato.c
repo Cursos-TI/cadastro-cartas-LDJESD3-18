@@ -45,7 +45,7 @@
     printf("Números de pontos turísticos:\n");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%d",&pontos_turisticos1);                                               //Armazena o valor de pontos turísticos em pontos_turísticos1
 
-
+   printf("\n \n");                                                                             //Faz um espaçamento
     
     printf("Carta 1:\n");                                                                            //Mostra a palavra carta 
 
@@ -94,7 +94,7 @@
     printf("Números de pontos turísticos:\n");                                      //Pede ao usuário o número do Produto Interno Produto(PIB) 
     scanf("%d",&pontos_turisticos2);                                                //Armazena o valor de pontos turísticos em pontos_turísticos1
 
-
+   printf("\n \n");                                                                 //Faz um espaçamento
     
     printf("Carta 2:\n");                                                        //Mostra a palavra carta 
 
