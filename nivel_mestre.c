@@ -30,8 +30,8 @@
     int comparacao_PIB;                                                                     //Declara o formato da variável comparacao_PIB(número inteiro)
     int comparacao_pontos;                                                                 //Declara o formato da variável comparacao_pontos(número inteiro)
     int comparacao_densidade;                                                             //Declara o formato da variável comparacao_densidade(número inteiro)
-    int comparacao_capita;                                                            //Declara o formato da variável comparacao_capita(número inteiro)
-    int comparacao_super;                                                           //Declara o formato da variável comparacao_super(número inteiro)
+    int comparacao_capita;                                                               //Declara o formato da variável comparacao_capita(número inteiro)
+    int comparacao_super;                                                               //Declara o formato da variável comparacao_super(número inteiro)
 
 
                                                                             
@@ -147,7 +147,7 @@
 
     printf("População:%lu\n",populacao2);                                        //Mostra a palavra população e o valor dela
 
-    printf("Área:%.2f km²\n",area2);                                          //Mostra a plavra área e o valor dela
+    printf("Área:%.2f km²\n",area2);                                          //Mostra a palavra área e o valor dela
 
     printf("PIB 1:%.2f bilhões de reais\n",PIB2);                           //Mostra a palavra PIB e o valor dela 
  
@@ -161,11 +161,17 @@
  
 
 
-   
+    comparacao_populacao = populacao1 > populacao2;                                          // compara o valor da população de cada carta e armazena o valor
+    comparacao_area= area1 > area2  ;                                                       //compara o valor da área de cada carta e armazena o valor
+    comparacao_PIB= PIB1 > PIB2;                                                           //compara o valor do PIB de cada carta e armazena o valor
+    comparacao_pontos = pontos_turisticos1 > pontos_turisticos2;                          // compara o valor dos pontos turísticos de cada carta e armazena o valor
+    comparacao_densidade= densidade_populacional1 > densidade_populacional2 ;            //compara o valor da densidade populacional de cada carta e armazena o valor
+    comparacao_PIB= PIB_per1 > PIB_per2;                                                //compara o valor do PIB Per Capita de cada carta e armazena o valor
+    comparacao_super = super_poder1 > super_poder2;                                   // compara o valor do Super poder de cada carta e armazena o valor
 
 
 
-
+     
 
 
 
