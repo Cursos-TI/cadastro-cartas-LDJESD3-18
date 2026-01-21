@@ -85,7 +85,7 @@
   
     printf("PIB Per Capita: %.2f reais\n",PIB_per1);                        //Mostra a expressão PIB per Capita e o seu valor 
 
-    printf("Super Poder:%f",super_poder1);                             
+    printf("Super Poder:%2.f",super_poder1);                             
  
     
 
@@ -149,7 +149,7 @@
   
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
 
-    printf("Super Poder:%f",super_poder2);                             
+    printf("Super Poder:%2f",super_poder2);                             
  
 
 
