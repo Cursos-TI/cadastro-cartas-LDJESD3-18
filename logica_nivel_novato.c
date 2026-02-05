@@ -131,15 +131,15 @@
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
     
    
-   printf("Comparação de cartas(Atributo:Área:)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
-   printf("Carta 1-Recife(Pe):%.2f",area1);                             //Mostra a palavra Carta1-Recife(Pe):
-   printf("Carta 2-Sergipe(AL):%.2f",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
+   printf("Comparação de cartas(Atributo:Área:\n)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
+   printf("Carta 1-Recife(Pe)\n:%.2f",area1);                             //Mostra a palavra Carta1-Recife(Pe):
+   printf("Carta 2-Sergipe(AL)\n:%.2f",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
 
    if(area1 >area2){                                                 //Condição:se area1>area2                                  
-      printf("Resultado:Carta 1(Recife)venceu! ");                  //Mostra a frase Resultado:Carta 1(Recife)venceu!se a condição for verdadeira
+      printf("Resultado:Carta 1(Recife)venceu!\n");                 //Mostra a frase Resultado:Carta 1(Recife)venceu!se a condição for verdadeira
     }
     else{                                                          //Condição:se não,ou seja se area1<area2
-     printf("Resultado:Carta 2(Sergipe) venceu!");                //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
+     printf("Resultado:Carta 2(Sergipe) venceu!\n");                //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
     }
 
    }
