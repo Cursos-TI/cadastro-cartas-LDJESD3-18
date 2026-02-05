@@ -139,7 +139,7 @@
       printf("Resultado:Carta 1(Recife)venceu!\n");                 //Mostra a frase Resultado:Carta 1(Recife)venceu!se a condição for verdadeira
     }
     else{                                                          //Condição:se não,ou seja se area1<area2
-     printf("Resultado:Carta 2(Sergipe) venceu!\n");                //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
+     printf("Resultado:Carta 2(Sergipe) venceu!\n");              //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
     }
 
    }
