@@ -132,8 +132,8 @@
     
    
    printf("Comparação de cartas(Atributo:Área:\n)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
-   printf("Carta 1-Recife(Pe)\n:%.2f",area1);                             //Mostra a palavra Carta1-Recife(Pe):
-   printf("Carta 2-Sergipe(AL)\n:%.2f",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
+   printf("Carta 1-Recife(Pe):%.2f\n",area1);                             //Mostra a palavra Carta1-Recife(Pe):
+   printf("Carta 2-Sergipe(AL):%.2f\n",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
 
    if(area1 >area2){                                                 //Condição:se area1>area2                                  
       printf("Resultado:Carta 1(Recife)venceu!\n");                 //Mostra a frase Resultado:Carta 1(Recife)venceu!se a condição for verdadeira
