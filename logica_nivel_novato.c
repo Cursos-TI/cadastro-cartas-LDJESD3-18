@@ -128,7 +128,7 @@
 
     printf("Densidade populacional:%.2f hab/km² \n",densidade_populacional2);  //Mostra a expressão densidade populacional e o seu valor 
   
-    printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
+    printf("PIB Per Capita:%.2f reais\n",PIB_per2);                           //Mostra a expressão PIB per Capita e o seu valor 
     
    
    printf("Comparação de cartas(Atributo:Área):\n)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
