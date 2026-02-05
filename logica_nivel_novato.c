@@ -131,7 +131,7 @@
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
     
    
-   printf("Comparação de cartas(Atributo:Área:\n)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
+   printf("Comparação de cartas(Atributo:Área):\n)");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
    printf("Carta 1-Recife(Pe):%.2f\n",area1);                             //Mostra a palavra Carta1-Recife(Pe):
    printf("Carta 2-Sergipe(AL):%.2f\n",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
 
