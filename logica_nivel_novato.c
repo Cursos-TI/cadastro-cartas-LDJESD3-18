@@ -130,9 +130,9 @@
   
     printf("PIB Per Capita:%.2f reais\n",PIB_per2);                        //Mostra a expressão PIB per Capita e o seu valor 
 
+   
 
 
 
 
-    
   }
