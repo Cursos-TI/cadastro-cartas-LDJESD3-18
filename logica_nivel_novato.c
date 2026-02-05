@@ -133,15 +133,15 @@
 
     printf("\n \n");                                                         //Faz um espaçamento
    
-   printf("Comparação de cartas(Atributo:Área):\n");                      //Mostra a expressão comparação de cartas(Atributo:Área:)
+   printf("Comparação de cartas(Atributo:Área):\n");                       //Mostra a expressão comparação de cartas(Atributo:Área:)
    printf("Carta 1-Recife(Pe):%.2f\n",area1);                             //Mostra a palavra Carta1-Recife(Pe):
    printf("Carta 2-Sergipe(AL):%.2f\n",area2);                           //Mostra a palavra Carta2-Sergipe(AL):
 
    if(area1 >area2){                                                    //Condição:se area1>area2                                  
       printf("Resultado:Carta 1(Recife)venceu!\n");                    //Mostra a frase Resultado:Carta 1(Recife)venceu!se a condição for verdadeira
     }
-    else{                                                          //Condição:se não,ou seja se area1<area2
-     printf("Resultado:Carta 2(Sergipe) venceu!\n");              //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
+    else{                                                            //Condição:se não,ou seja se area1<area2
+     printf("Resultado:Carta 2(Sergipe) venceu!\n");                //Mostra a frase Resultado:Carta 2(Sergipe) venceu! se a condição for falsa
     }
 
    }
