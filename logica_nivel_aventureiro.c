@@ -200,7 +200,7 @@
         } else if(PIB1==PIB2){              //Função que determina que se os valores dos dois  PIBS forem iguais
           printf("Empate");                //Mostra a palavra empate
           
-        } if(pontos_turisticos1==pontos_turisticos2){   //Função que determina que se os valores daos pontos turísticos forem iguais
+        }else if(pontos_turisticos1==pontos_turisticos2){   //Função que determina que se os valores daos pontos turísticos forem iguais
           printf("Empate");                              //Mostra a palavra empate
           
         }else if(densidade_populacional1==densidade_populacional2){             //Função que determina que se os valores da duas  densidade  populacionais forem iguais
@@ -221,7 +221,7 @@
         }else if(pontos_turisticos1>pontos_turisticos2){   //Função que determina que se o valores daos pontos turísticos 
           printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
-        }else if(densidade_populacional1>densidade_populacional2){             //Função que determina que se o valor de densidade populacional 1 é maior que a densidade populacional2
+        }else if((1/densidade_populacional1)<(1/densidade_populacional2)){  //Função que determina que se o valor de densidade populacional 1 é menor que a densidade populacional2
           printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         } else if(PIB_per1>PIB_per2){                  //Função que determina que se o valor do PIB Per Capita 1 for maior que o do PIB Per Capita 2
