@@ -170,7 +170,7 @@
         break;                                              //sai do switch
         
         case 4:                                                                                 //se escolha_atributo = 04    
-        printf("1.Cidades:%d e %d:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
         printf("2.Número de pontos turísticos\n");                                           //Mostra  a palavra número de pontos turísticos
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
@@ -207,7 +207,7 @@
           
 
 
-   }                                                                                          //Declara o formato da variável população1 como int (número inteiro decimal))
+   }                                                                                                        //Declara o formato da variável população1 como int (número inteiro decimal)
      //area1;                                                                                              //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
      //PIB1;                                                                                              //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))                                                                                               
     //pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
