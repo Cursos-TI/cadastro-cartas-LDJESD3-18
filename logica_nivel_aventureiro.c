@@ -189,7 +189,8 @@
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
         break;                                                    //sai do switch
-         }                                                 
+        
+         }                                                  
 
         if(populacao1==populacao2){   //Função que determina que se os valores da duas populações forem iguais
           printf("Empate");          //Mostra a palavra empate
