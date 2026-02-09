@@ -150,9 +150,9 @@
     switch(escolha_atributo)                                //Função que seleciona o valor de escolha_atributo para direcionar o usuário para um dos tópicos
       { case 1:                                            //se escolha_atributo = 01    
         printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
-        printf("1.População\n");                         //Mostra  a palavra População
-        printf("População de Recife:%d\n",populacao1);  //Mostra a população de Recife
-        printf("População de Natal:%d\n",populacao2); //Mostra a população de Natal
+        printf("2.População\n");                         //Mostra  a palavra População
+        printf("3.População de Recife:%d\n",populacao1);  //Mostra a população de Recife
+        printf("4.População de Natal:%d\n",populacao2); //Mostra a população de Natal
         break;
 
         case 2:                                              //se escolha_atributo = 02    
@@ -188,7 +188,7 @@
         printf("3.PIB Per Capita de Recife:%.2f\n",PIB_per1);       //Mostra o PIB Per Capita de Recife
         printf("4.PIB Per Capita de Natal:%.2f\n",PIB_per2);       //Mostra o PIB Per Capita de Natal
 
-        
+        //
 
 
 
