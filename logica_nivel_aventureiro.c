@@ -142,19 +142,24 @@
     printf("4.Número de pontos turísticos:\n");              //Mostra o atributo número de pontos turísticos  para a comparação
     printf("5.Densidade Populacional\n");                   //Mostra o atributo Densidade Populacional para a comparação
     printf("6.PIB Per Capita\n");                          //Mostra o atributo Pib Per Capita para a comparação
-    
+    printf("Escolha: \n");                                // Mostra a palavra Escolha
+    scanf("%d",escolha_atributo);                        //Armazena o valor na variável escolha_atributo
+   
 
 
+    switch(escolha_atributo)                                //Função que seleciona o valor de escolha_atributo para direcionar o usuário para um dos tópicos
+      { case 1:                                            //se escolha_atributo = 01    
+        printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
+        printf("1.Populaçaõ\n");                         //Mostra  a palavra População
+        printf("População de Recife:%d\n",populacao1);  //Mostra a população de Recife
+        printf("População de Natal:%d\n",populacao2); //Mostra a população de Natal
+        break;
 
-
-
-
-
-
-    switch(escolha_atributo);          //Função que seleciona o valor de escolha_atributo para direcionar o usuário para um dos tópicos
-      { 
-        case 1:
-        printf("")
+        case 2:                                            //se escolha_atributo = 02    
+        printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
+        printf("1.Populaçaõ\n");                         //Mostra  a palavra Área
+        printf("Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
+        printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
 
       }
 
