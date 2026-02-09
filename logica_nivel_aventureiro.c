@@ -189,6 +189,7 @@
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
         break;                                                    //sai do switch
+         }                                                 
 
         if(populacao1==populacao2 ||(area1==area2)|| (PIB1==PIB2)||
         (pontos_turisticos1==pontos_turisticos2)||
@@ -204,6 +205,7 @@
       } else {                                                 //Se não
         printf("Carta 2 (%s)venceu!",cidade2) ;               //Mostra Carta 2 (nome da cidade) venceu                        
       }
-    }
+    
+  }
           
-    //
+    
