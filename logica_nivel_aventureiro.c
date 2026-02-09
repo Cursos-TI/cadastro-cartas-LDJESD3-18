@@ -150,30 +150,46 @@
     switch(escolha_atributo)                                //Função que seleciona o valor de escolha_atributo para direcionar o usuário para um dos tópicos
       { case 1:                                            //se escolha_atributo = 01    
         printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
-        printf("1.Populaçaõ\n");                         //Mostra  a palavra População
+        printf("1.População\n");                         //Mostra  a palavra População
         printf("População de Recife:%d\n",populacao1);  //Mostra a população de Recife
         printf("População de Natal:%d\n",populacao2); //Mostra a população de Natal
         break;
 
-        case 2:                                            //se escolha_atributo = 02    
-        printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
-        printf("1.Populaçaõ\n");                         //Mostra  a palavra Área
-        printf("Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
-        printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
+        case 2:                                              //se escolha_atributo = 02    
+        printf("1.Recife e Natal:\n");                      // Mostra o nome das cidades  
+        printf("2.Área\n");                                //Mostra  a palavra Área
+        printf("3.Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
+        printf("4.Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
 
 
-        case 3:                                            //se escolha_atributo = 03   
-        printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
-        printf("1.PIB\n");                               //Mostra  a palavra PIB
-        printf("Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
-         printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
+        case 3:                                              //se escolha_atributo = 03   
+        printf("1.Recife e Natal:\n");                      // Mostra o nome das cidades  
+        printf("2.PIB\n");                                 //Mostra  a palavra PIB
+        printf("3.PIB de Recife:%.2f\n",PIB1);            //Mostra o PIB de Recife
+        printf("4.PIB de Natal:%.2f\n",PIB2);            //Mostra o PIB de Natal
 
         
-        case 4:                                            //se escolha_atributo = 04    
-        printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
-        printf("1.PIB\n");                               //Mostra  a palavra PIB
-        printf("Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
-         printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
+        case 4:                                                                                 //se escolha_atributo = 04    
+        printf("1.Recife e Natal:\n");                                                         // Mostra o nome das cidades  
+        printf("2.Número de pontos trurísticos\n");                                           //Mostra  a palavra número de pontos turísticos
+        printf("3.Número de pontos turísticos de Recife:%d\n",pontos_turisticos1 ) ;         //Mostra o número de pontos turísticos de Recife
+        printf("4.Número de pontos turísticos de Natal:%d\n",pontos_turisticos2);           //Mostra o número de pontos turísticos de Natal
+          
+
+        case 5:                                                                                     //se escolha_atributo = 05   
+        printf("1.Recife e Natal:\n");                                                             // Mostra o nome das cidades  
+        printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
+        printf("3.Densidade Populacional de Recife:%.2f\n",densidade_populacional1);             //Mostra a Densidade Populacional de Recife
+        printf("4.Densidade Populacional de Natal:%.2f\n",densidade_populacional2);             //Mostra a Densidade Populacional  de  de Natal
+
+        case 6:                                                        //se escolha_atributo = 06   
+        printf("1.Recife e Natal:\n");                                // Mostra o nome das cidades  
+        printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
+        printf("3.PIB Per Capita de Recife:%.2f\n",PIB_per1);       //Mostra o PIB Per Capita de Recife
+        printf("4.PIB Per Capita de Natal:%.2f\n",PIB_per2);       //Mostra o PIB Per Capita de Natal
+
+        
+
 
 
 
