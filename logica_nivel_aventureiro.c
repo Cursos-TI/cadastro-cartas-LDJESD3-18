@@ -191,11 +191,11 @@
         break;                                                    //sai do switch
          }                                                 
 
-        if(populacao1==populacao2 ||(area1==area2)|| (PIB1==PIB2)||
-        (pontos_turisticos1==pontos_turisticos2)||
-        ((1/densidade_populacional1) == (1/densidade_populacional2)) ||
-        (PIB_per1== PIB_per2) ){                                                      //Função que determina que se os valores da duas cidades forem iguais,se pelo menos uma for igual
-          printf("Empate!");                                                         //Mostra a palavra empate
+        if((populacao1==populacao2)|| (area1==area2)||(PIB1==PIB2)                        //Função que determina que se os valores da duas cidades forem iguais,se pelo menos uma for igual
+        ||(pontos_turisticos1==pontos_turisticos2)||
+        (1/densidade_populacional1) == (1/densidade_populacional2) ||
+        (PIB_per1== PIB_per2)) {                                                     
+          printf("Empate!");                                                      //Mostra a palavra empate
         } else if (populacao1>populacao2 ||(area1>area2)|| (PIB1>PIB2)||         //se não ,se os valores da cidade1 forem maiores que a da cidade2,pelo menos 1 for maior
         (pontos_turisticos1>pontos_turisticos2)||
         ((1/densidade_populacional1) < (1/densidade_populacional2)) ||
