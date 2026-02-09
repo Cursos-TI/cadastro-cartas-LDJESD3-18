@@ -145,7 +145,7 @@
     printf("Escolha: \n");                                // Mostra a palavra Escolha
     scanf("%d", &escolha_atributo);                      //Armazena o valor na variável escolha_atributo
    
-
+   printf("\n \n");                                                  //Faz um espaçamento
 
     switch(escolha_atributo)                                      //Função que seleciona o valor de escolha_atributo para direcionar o usuário para um dos tópicos
       { case 1:                                                  //se escolha_atributo = 01    
@@ -153,48 +153,63 @@
         printf("2.População\n");                               //Mostra  a palavra População
         printf("3.População de %s:%d\n",cidade1,populacao1);  //Mostra a população de cidade1
         printf("4.População de %s:%d\n",cidade2,populacao2); //Mostra a população da cidade2
-        break;
+        break;                                              //sai do switch
 
         case 2:                                                 //se escolha_atributo = 02    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);        // Mostra o nome das cidades  
         printf("2.Área\n");                                   //Mostra  a palavra Área
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
-        printf("4.Área de %s:%.2f\n",cidade2,area2);         //Mostra a área de cidade2
-
+        printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
+        break;                                             //sai do switch
 
         case 3:                                                  //se escolha_atributo = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
         printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
-
+        break;                                              //sai do switch
         
         case 4:                                                                                 //se escolha_atributo = 04    
         printf("1.Cidades:%d e %d:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
         printf("2.Número de pontos turísticos\n");                                           //Mostra  a palavra número de pontos turísticos
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
-          
+        break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha_atributo = 05   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                                 // Mostra o nome das cidades  
         printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional  da cidade 2
+        break;                                                                                  //sai do switch
 
         case 6:                                                        //se escolha_atributo = 06   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);               // Mostra o nome das cidades  
         printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
-        printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);   //Mostra o PIB Per Capita de cidade2
+        printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
+        break;                                                    //sai do switch
 
-        //Teste0102
-
-
-
-
-
+        if(populacao1==populacao2 ||(area1==area2)|| (PIB1==PIB2)||
+        (pontos_turisticos1==pontos_turisticos2)||
+        ((1/densidade_populacional1) == (1/densidade_populacional2)) ||
+        (PIB_per1== PIB_per2) ){                                                      //Função que determina que se os valores da duas cidades forem iguais,se pelo menos uma for igual
+          printf("Empate!");                                                         //Mostra a palavra empate
+        } else if (populacao1>populacao2 ||(area1>area2)|| (PIB1>PIB2)||         //se não ,se os valores da cidade1 forem maiores que a da cidade2,pelo menos 1 for maior
+        (pontos_turisticos1>pontos_turisticos2)||
+        ((1/densidade_populacional1) < (1/densidade_populacional2)) ||
+        (PIB_per1 > PIB_per2) ){ 
+           
+          printf("Carta 1 (%s) venceu!",cidade1);               //Mostra a Expressão carta1(nome da cidade)venceu
+      } else {                                                 //Se não
+        printf("Carta 2 (%s)venceu!",cidade2) ;               //Mostra Carta 2 (nome da cidade) venceu                        
       }
+          
 
 
-   }
+   }  //populacao1;                                                                                         //Declara o formato da variável população1 como int (número inteiro decimal))
+     //area1;                                                                                              //Declara o formato da variável área1 como float (número de ponto fluante(número com casas decimais))  
+     //PIB1;                                                                                              //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))                                                                                               
+    //pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
+     //densidade_populacional1;                                                                         //Declara o formato da variável densidade_populacional1(número de ponto flutuante)
+    // PIB_per1;
