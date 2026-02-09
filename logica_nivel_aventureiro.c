@@ -188,7 +188,7 @@
         printf("3.PIB Per Capita de Recife:%.2f\n",PIB_per1);       //Mostra o PIB Per Capita de Recife
         printf("4.PIB Per Capita de Natal:%.2f\n",PIB_per2);       //Mostra o PIB Per Capita de Natal
 
-        //Teste
+        //Teste01
 
 
 
