@@ -212,4 +212,4 @@
      //PIB1;                                                                                              //Declara o formato da variável PIB1 como float (número de ponto fluante(número com casas decimais))                                                                                               
     //pontos_turisticos1;                                                                                //Declara o formato da variável porntos_turísticos1(número inteiro decimal)
      //densidade_populacional1;                                                                         //Declara o formato da variável densidade_populacional1(número de ponto flutuante)
-    // PIB_per1;
+    // PIB_per1
