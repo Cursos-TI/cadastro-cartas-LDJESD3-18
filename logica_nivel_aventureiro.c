@@ -143,7 +143,7 @@
     printf("5.Densidade Populacional\n");                   //Mostra o atributo Densidade Populacional para a comparação
     printf("6.PIB Per Capita\n");                          //Mostra o atributo Pib Per Capita para a comparação
     printf("Escolha: \n");                                // Mostra a palavra Escolha
-    scanf("%d",escolha_atributo);                        //Armazena o valor na variável escolha_atributo
+    scanf("%d", &escolha_atributo);                      //Armazena o valor na variável escolha_atributo
    
 
 
