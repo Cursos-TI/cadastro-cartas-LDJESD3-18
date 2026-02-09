@@ -166,7 +166,7 @@
         printf("1.Recife e Natal:\n");                    // Mostra o nome das cidades  
         printf("1.PIB\n");                               //Mostra  a palavra PIB
         printf("Área de Recife:%.2f\n",area1);          //Mostra a área de Recife
-        printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
+         printf("Área de Natal:%.2f\n",area2);          //Mostra a área de Natal
 
 
       }
