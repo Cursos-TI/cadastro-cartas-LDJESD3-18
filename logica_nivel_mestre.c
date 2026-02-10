@@ -259,7 +259,7 @@
         printf("2.Densidade Populacional\n");                                                     //Mostra  a expressão Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade1= densidade_populacional1>densidade_populacional2 ? 1:0  ;         //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
+        comparacao_densidade1= (1/densidade_populacional1)>(1/densidade_populacional2) ? 1:0  ; //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
         comparacao_igual_dp1= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se as densidades  forem iguais e armazena na variável comparacao_igual_dp2
         if(comparacao_igual_dp1==1) {                                                          //Função   que determina se comparacao_igual_dp2 for igual a 1
            printf("Empate!");                                                                 //Mostra "Empate!"                  
@@ -387,7 +387,7 @@
         printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade2= densidade_populacional1>densidade_populacional2 ? 1:0  ;        //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
+        comparacao_densidade2= (1/densidade_populacional1>1/densidade_populacional2) ? 1:0  ;        //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
         comparacao_igual_p2= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se os PIBs forem iguais e armazena na variável comparacao_igual_dp2
         if(comparacao_igual_p2==1) {                                                          //Função   que determina se comparacao_igual6 for igual a 1
            printf("Empate!");                                                                 //Mostra "Empate!"
