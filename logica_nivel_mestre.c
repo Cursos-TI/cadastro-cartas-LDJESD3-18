@@ -19,26 +19,39 @@
     int pontos_turisticos2;                                                                         //Declara o formato da variável porntos_turísticos2(número inteiro decimal)
     float densidade_populacional2;                                                                 //Declara o formato da variável densiade_populacional2(número de ponto flutuante)
     float PIB_per2;                                                                               //Declara o formato da variável PIB_per2(número de ponto fluante)
+
+
     int escolha1;                                                                                //Declara o formato da variável escolha1(número inteiro)
+    int comparacao_igual_p1;                                                                    //Declara o formato da variável comparacao_igual_p1(número inteiro)
+    int comparacao_igual_a1;                                                                   //Declara o formato da variável comparacao_igual_a1(número inteiro)
+    int comparacao_igual_P1;                                                                 //Declara o formato da variável comparacao_igual_P1(número inteiro)
+    int comparacao_igual_ptu1;                                                              //Declara o formato da variável comparacao_igual_ptu1(número inteiro)
+    int comparacao_igual_dp1;                                                               //Declara o formato da variável comparacao_igual_dp1(número inteiro)
+    int comparacao_igual_Pp1;                                                              //Declara o formato da variável comparacao_igual_PP1(número inteiro)
+                                                      
+    
+
     int comparacao_populacao1;                                                                  //Declara o fomato da variável comparacao_populacao1(número inteiro)
     int comparacao_area1;                                                                      //Declara o formato da variável compaarcao_area1(número inteiro)
     int comparacao_PIB1;                                                                       //Declara o formato da variável comparacao_PIB1(número inteiro)
     int comparacao_pontos1;                                                                  //Declara o fomato da variável comparacao_pontos1(número inteiro)
     int comparacao_densidade1;                                                              //Declara o formato da variável comparacao_densidade1(número inteiro)
-    int comparacao_PIB_per1;                                                                //Declara o formato da variável comparacao_PIB_per1(número inteiro)
-    int escolha2;                                                                         //Declara o formato da variável escolha2(número inteiro)
+    int comparacao_PIB_per1;                                                              //Declara o formato da variável comparacao_PIB_per1(número inteiro)
     int comparacao_populacao2;                                                           //Declara o fomato da variável comparacao_populacao2(número inteiro)
     int comparacao_area2;                                                               //Declara o formato da variável compaarcao_area2(número inteiro)
-    int comparacao_PIB2;                                                                //Declara o formato da variável comparacao_PIB2(número inteiro)
+    int comparacao_PIB2;                                                               //Declara o formato da variável comparacao_PIB2(número inteiro)
     int comparacao_pontos2;                                                           //Declara o fomato da variável comparacao_pontos2(número inteiro)
     int comparacao_densidade2;                                                       //Declara o formato da variável comparacao_densidade2(número inteiro)
-    int comparacao_PIB_per2;                                                         //Declara o formato da variável comparacao_PIB_per2(número inteiro)
+    int comparacao_PIB_per2;                                                       //Declara o formato da variável comparacao_PIB_per2(número inteiro)
+  
 
-
-
-
-
-
+    int escolha2;                                                                                //Declara o formato da variável escolha2(número inteiro)
+    int comparacao_igual_p2;                                                                    //Declara o formato da variável comparacao_igual_p2(número inteiro)
+    int comparacao_igual_a2;                                                                   //Declara o formato da variável comparacao_igual_a2(número inteiro)
+    int comparacao_igual_P2;                                                                 //Declara o formato da variável comparacao_igual_P2(número inteiro)
+    int comparacao_igual_ptu2;                                                              //Declara o formato da variável comparacao_igual_ptu2(número inteiro)
+    int comparacao_igual_dp2;                                                               //Declara o formato da variável comparacao_igual_dp2(número inteiro)
+    int comparacao_igual_Pp2;                                                              //Declara o formato da variável comparacao_igual_PP2(número inteiro)
 
 
 
@@ -177,7 +190,11 @@
         printf("3.População de %s:%d\n",cidade1,populacao1);  //Mostra a população de cidade1
         printf("4.População de %s:%d\n",cidade2,populacao2); //Mostra a população da cidade2
         comparacao_populacao1= populacao1>populacao2 ? 1:0  ;//Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao1 e retonar 1 se sim
-            if(comparacao_populacao1==1){                    //Função que verfifica se comparcao_populacao1 for igual a 1
+        comparacao_igual_p1= populacao1==populacao2? 1:0 ;     //Operador que verfifica se as populações  forem iguais e armazena na variável comparacao_igual_p1
+        if(comparacao_igual_p1==1) {                           //Função   que determina se comparacao_igual_p1 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+ 
+        }else  if(comparacao_populacao1==1){                    //Função que verfifica se comparcao_populacao1 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                            //Se não
@@ -189,8 +206,13 @@
         printf("2.Área\n");                                   //Mostra  a palavra Área
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
-        comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se area 1 for maior que população2 e armazena na variável comparação_area1 e retonar 1 se sim
-            if(comparacao_area1==1){                       //Função que verfifica se comparcao_area1 for igual a 1
+        comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área 2 e armazena na variável comparação_area1 e retonar 1 se sim
+        comparacao_igual_a1= area1==area2? 1:0 ;         //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
+        if(comparacao_igual_a1==1) {                      //Função   que determina se comparacao_igual_a1 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+  
+        
+        }else if(comparacao_area1==1){                 //Função que verifica se comparcao_area1 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                             //Se não
@@ -202,9 +224,13 @@
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
         printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
-         comparacao_PIB1= PIB1>PIB2 ? 1:0  ;                //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB1 e retonar 1 se sim
-            if(comparacao_PIB1==1){                        //Função que verfifica se comparcao_PIB1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+        comparacao_PIB1= PIB1>PIB2 ? 1:0  ;                  //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB1 e retonar 1 se sim
+        comparacao_igual_P1= PIB1==PIB2? 1:0 ;              //Operador que verfifica se os PIBS  forem iguais e armazena na variável comparacao_igual_P1
+        if(comparacao_igual_P1==1) {                      //Função   que determina se comparacao_igual_P1 for igual a 1
+           printf("Empate!");                            //Mostra "Empate!"
+ 
+        } else if(comparacao_PIB1==1){                        //Função que verfifica se comparacao_PIB1 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                           //Se não
             printf("Carta 2(%s)venceu!",cidade2); }                                               //Mostra que Carta 2 venceu
@@ -215,8 +241,13 @@
         printf("2.Número de pontos turísticos\n");                                            //Mostra  a expressão número de pontos turísticos
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
-         comparacao_pontos1= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos1 e retonar 1 se sim
-            if(comparacao_pontos1==1){                                                    //Função que verfifica se comparacao_pontos1 for igual a 1
+        comparacao_pontos1= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos1 e retonar 1 se sim
+        comparacao_igual_ptu1= pontos_turisticos1==pontos_turisticos2? 1:0 ;              //Operador que verifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
+        if(comparacao_igual_ptu1==1) {                                                   //Função   que determina se comparacao_igual_ptu2 for igual a 1
+           printf("Empate!");                                                          //Mostra "Empate!"
+         
+         
+        } else if(comparacao_pontos1==1){                                                       //Se não verifica se comparacao_pontos1 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                             //Se não
@@ -224,12 +255,16 @@
         break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha1 = 05   
-        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                                 // Mostra o nome das cidades  
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                            // Mostra o nome das cidades  
         printf("2.Densidade Populacional\n");                                                     //Mostra  a expressão Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade1= densidade_populacional1>densidade_populacional2 ? 1:0  ;       //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
-            if(comparacao_densidade1==1){                                                       //Função que verfifica se comparacao_densidade1 for igual a 1
+        comparacao_densidade1= densidade_populacional1>densidade_populacional2 ? 1:0  ;         //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
+        comparacao_igual_dp1= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se as densidades  forem iguais e armazena na variável comparacao_igual_dp2
+        if(comparacao_igual_dp1==1) {                                                          //Função   que determina se comparacao_igual_dp2 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"                  
+        
+        }else if(comparacao_densidade1==1){                                                      //Se não verifica se comparacao_densidade1 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                                 //Se não
@@ -242,12 +277,16 @@
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
         comparacao_PIB_per1= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
-            if(comparacao_PIB_per1==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
+        comparacao_igual_Pp1= PIB_per1==PIB_per2? 1:0 ;          //Operador que verfifica se os PIBS per Capita forem iguais e armazena na variável comparacao_igual_Pp2
+        if(comparacao_igual_Pp1==1) {                           //Função   que determina se comparacao_igual_Pp2 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+
+        }else  if(comparacao_PIB_per1==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                               //Se não
             printf("Carta 2(%s)venceu!",cidade2); }          // Mostra que Carta 2 venceu
-        break;                                               //sai do switch
+        break;                                              //sai do switch
 
         default:
             printf("Opção inválida!!");                          
@@ -273,7 +312,7 @@
 
         if(escolha1==escolha2){                                                            //Função que verifica se escola 1 for igual a escolha 2
            printf("Você escolheu o mesmo atributo,Reinicie o jogo e escolha outro");      //Mostra a frase "Você escolheu o mesmo atributo,Reinicie o jogo e escolha outro"
-        }else{
+        }else {
        switch(escolha2)                                            //Função que seleciona o valor de escolha2 para direcionar o usuário para um dos tópicos
        { case 1:                                                  //se escolha2 = 01    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);          // Mostra o nome das cidades  
@@ -281,7 +320,11 @@
         printf("3.População de %s:%d\n",cidade1,populacao1);   //Mostra a população de cidade1
         printf("4.População de %s:%d\n",cidade2,populacao2);  //Mostra a população da cidade2
         comparacao_populacao2= populacao1>populacao2 ? 1:0  ; //Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao2 e retonar 1 se sim
-            if(comparacao_populacao2==1){                    //Função que verfifica se comparcao_populacao2 for igual a 1
+        comparacao_igual_p2= populacao1==populacao2? 1:0 ;                 //Operador que verfifica se as populações forem iguais e armazena na variável comparacao_igual_p2
+        if(comparacao_igual_p2==1) {                                                        //Função   que determina se comparacao_igual_p2 for igual a 1
+           printf("Empate!");                                                              //Mostra "Empate!"
+
+        } else if(comparacao_populacao2==1){                   //Se não que verifica se comparacao_populacao2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                            //Se não
@@ -293,8 +336,12 @@
         printf("2.Área\n");                                   //Mostra  a palavra Área
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
-        comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se area 1 for maior que população2 e armazena na variável comparação_area2 e retonar 1 se sim
-            if(comparacao_area2==1){                       //Função que verfifica se comparacao_area2 for igual a 1
+        comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área2 e armazena na variável comparação_area2 e retonar 1 se sim
+        comparacao_igual_a2= area1==area2? 1:0 ;                 //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a2
+        if(comparacao_igual_a2==1) {                                                        //Função   que determina se comparacao_igual_a2 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+
+        } else if(comparacao_area2==1){                  //Se nãoverifica se comparacao_area2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                             //Se não
@@ -306,8 +353,12 @@
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
         printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
-         comparacao_PIB2= PIB1>PIB2 ? 1:0  ;                //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB2 e retonar 1 se sim
-            if(comparacao_PIB2==1){                        //Função que verfifica se comparcao_PIB2 for igual a 1
+        comparacao_PIB2= PIB1>PIB2 ? 1:0  ;                                                   //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB2 e retonar 1 se sim
+        comparacao_igual_P2= PIB1==PIB2? 1:0 ;                                                 //Operador que verfifica se os PIBsforem iguais e armazena na variável comparacao_igual_P2
+        if(comparacao_igual_ptu2==1) {                                                        //Função   que determina se comparacao_igual_P2 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+
+        }  else if(comparacao_PIB2==1){                   //Se não que verifica se comparcao_PIB2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                           //Se não
@@ -320,7 +371,11 @@
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
          comparacao_pontos2= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos2 e retonar 1 se sim
-            if(comparacao_pontos2==1){                                                    //Função que verfifica se comparacao_pontos2 for igual a 1
+         comparacao_igual_ptu2= pontos_turisticos1==pontos_turisticos2? 1:0 ;                 //Operador que verfifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
+        if(comparacao_igual_ptu2==1) {                                                        //Função   que determina se comparacao_igual_ptu2 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
+
+        } else if(comparacao_pontos2==1){                                                  // Se não verifica se comparacao_pontos2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                             //Se não
@@ -332,28 +387,36 @@
         printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade2= densidade_populacional1>densidade_populacional2 ? 1:0  ;       //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade2 e retonar 1 se sim
-            if(comparacao_densidade2==1){                                                       //Função que verfifica se comparacao_densidade2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
+        comparacao_densidade2= densidade_populacional1>densidade_populacional2 ? 1:0  ;        //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
+        comparacao_igual_p2= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se os PIBs forem iguais e armazena na variável comparacao_igual_dp2
+        if(comparacao_igual_p2==1) {                                                          //Função   que determina se comparacao_igual6 for igual a 1
+           printf("Empate!");                                                                 //Mostra "Empate!"
 
-        } else {                                                                                 //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                             //Mostra que Carta 2 venceu  
-        break;                                                                                  //sai do switch
+        } else if(comparacao_densidade2==1){                    //Se não verifica se comparacao_PIB_per2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
+        } else {                                               //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
+        break;                                               //sai do switch  
         case 6:                                                        //se escolha_atributo = 06   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);               // Mostra o nome das cidades  
         printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
-        comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
-            if(comparacao_PIB_per2==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
+        comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparacao_PIB_per2 e retonar 1 se sim
+        comparacao_igual_p2= PIB_per1==PIB_per2? 1:0 ;            //Operador que verfifica se os PIBs Per Capita forem iguais e armazena na variável comparacao_igual_P2
+        if(comparacao_igual_p2==1) {                             //Função   que determina se comparacao_igual_p2 for igual a 1
+           printf("Empate!");                                   //Mostra "Empate!"
+
+        } else if(comparacao_PIB_per2==1){                      //Se não verifica se comparacao_PIB_per2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                               //Se não
             printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
-        break;                                               //sai do switch     
-        
-         }}  
+        break;                                               //sai do switch  
+          
+          }}
+           
          
          
 
