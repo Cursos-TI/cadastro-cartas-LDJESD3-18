@@ -24,8 +24,8 @@
     int escolha1;                                                                                //Declara o formato da variável escolha1(número inteiro)
     int comparacao_igual_p1;                                                                    //Declara o formato da variável comparacao_igual_p1(número inteiro)
     int comparacao_igual_a1;                                                                   //Declara o formato da variável comparacao_igual_a1(número inteiro)
-    int comparacao_igual_P1;                                                                 //Declara o formato da variável comparacao_igual_P1(número inteiro)
-    int comparacao_igual_ptu1;                                                              //Declara o formato da variável comparacao_igual_ptu1(número inteiro)
+    int comparacao_igual_P1;                                                                  //Declara o formato da variável comparacao_igual_P1(número inteiro)
+    int comparacao_igual_ptu1;                                                               //Declara o formato da variável comparacao_igual_ptu1(número inteiro)
     int comparacao_igual_dp1;                                                               //Declara o formato da variável comparacao_igual_dp1(número inteiro)
     int comparacao_igual_Pp1;                                                              //Declara o formato da variável comparacao_igual_PP1(número inteiro)
                                                       
@@ -48,13 +48,42 @@
     int escolha2;                                                                                //Declara o formato da variável escolha2(número inteiro)
     int comparacao_igual_p2;                                                                    //Declara o formato da variável comparacao_igual_p2(número inteiro)
     int comparacao_igual_a2;                                                                   //Declara o formato da variável comparacao_igual_a2(número inteiro)
-    int comparacao_igual_P2;                                                                 //Declara o formato da variável comparacao_igual_P2(número inteiro)
-    int comparacao_igual_ptu2;                                                              //Declara o formato da variável comparacao_igual_ptu2(número inteiro)
+    int comparacao_igual_P2;                                                                  //Declara o formato da variável comparacao_igual_P2(número inteiro)
+    int comparacao_igual_ptu2;                                                               //Declara o formato da variável comparacao_igual_ptu2(número inteiro)
     int comparacao_igual_dp2;                                                               //Declara o formato da variável comparacao_igual_dp2(número inteiro)
     int comparacao_igual_Pp2;                                                              //Declara o formato da variável comparacao_igual_PP2(número inteiro)
 
-
-
+   int soma1;                                                                                               //Declara o formato da variável soma1(número inteiro)
+   int soma2;                                                                                              // Declara o formato da variável soma 2(número inteiro)
+   int soma3;                                                                                             //Declara o formato da variável soma3(número inteiro)
+   int soma4;                                                                                            // Declara o formato da variável soma4(número inteiro)
+   int soma5;                                                                                           //Declara o formato da variável soma5(número inteiro)
+   int soma6;                                                                                          // Declara o formato da variável soma6(número inteiro)
+   int soma7;                                                                                         //Declara o formato da variável soma7(número inteiro)
+   int soma8;                                                                                        // Declara o formato da variável soma8(número inteiro)
+   int soma9;                                                                                       //Declara o formato da variável soma9(número inteiro)
+   int soma10;                                                                                     // Declara o formato da variável soma10(número inteiro)
+   int soma11;                                                                                    //Declara o formato da variável soma11(número inteiro)
+   int soma12;                                                                                   // Declara o formato da variável soma 12(número inteiro)
+   int soma13;                                                                                  //Declara o formato da variável soma13(número inteiro)
+   int soma14;                                                                                 // Declara o formato da variável soma 14(número inteiro)
+   int soma15;                                                                                //Declara o formato da variável soma15(número inteiro)
+   int soma16;                                                                               // Declara o formato da variável soma 16(número inteiro)
+   int soma17;                                                                              //Declara o formato da variável soma17(número inteiro)
+   int soma18;                                                                             // Declara o formato da variável soma 18(número inteiro)
+   int soma19;                                                                            //Declara o formato da variável soma19(número inteiro)
+   int soma20;                                                                           // Declara o formato da variável soma20(número inteiro)
+   int soma21;                                                                          //Declara o formato da variável soma21(número inteiro)
+   int soma22;                                                                         // Declara o formato da variável soma22(número inteiro)
+   int soma23;                                                                         //Declara o formato da variável soma23(número inteiro)
+   int soma24;                                                                       // Declara o formato da variável soma24(número inteiro)
+   int soma25;                                                                      //Declara o formato da variável soma25(número inteiro)
+   int soma26;                                                                     // Declara o formato da variável soma26(número inteiro)
+   int soma27;                                                                    //Declara o formato da variável soma27(número inteiro)
+   int soma28;                                                                   // Declara o formato da variável soma 28(número inteiro)
+   int soma29;                                                                  //Declara o formato da variável soma29(número inteiro)
+   int soma30;                                                                 // Declara o formato da variável soma 30(número inteiro)
+  
 
 
 
@@ -387,17 +416,17 @@
         printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade2= (1/densidade_populacional1>1/densidade_populacional2) ? 1:0  ;        //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
+        comparacao_densidade2= (1/densidade_populacional1>1/densidade_populacional2) ? 1:0  ;  //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
         comparacao_igual_p2= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se os PIBs forem iguais e armazena na variável comparacao_igual_dp2
-        if(comparacao_igual_p2==1) {                                                          //Função   que determina se comparacao_igual6 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
+        if(comparacao_igual_p2==1) {                                                         //Função   que determina se comparacao_igual6 for igual a 1
+           printf("Empate!");                                                               //Mostra "Empate!"
 
-        } else if(comparacao_densidade2==1){                    //Se não verifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
+        } else if(comparacao_densidade2==1){                                  //Se não verifica se comparacao_PIB_per2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);                           //Mostra que Carta 1 (nome da cidade)venceu
 
-        } else {                                               //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
-        break;                                               //sai do switch  
+        } else {                                                          //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }                      // Mostra que Carta 2 venceu
+        break;                                                          //sai do switch  
         case 6:                                                        //se escolha_atributo = 06   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);               // Mostra o nome das cidades  
         printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
@@ -413,57 +442,91 @@
 
         } else {                                               //Se não
             printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
-        break;                                               //sai do switch  
+        break;                                               //sai do switch      
           
-          }}//
+          }} if(escolha1==1 && escolha2 ==2|| escolha1==2 && escolha2==1){         //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
+              soma1= populacao1 +(int)area1;                                      //se sim soma populacao1 a area1 
+              soma2= populacao2+(int)area2;                                      // soma populacao2 e area2
+              printf("Soma dos atributos da Carta 1:%d",soma1);                 // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma2);               // Mostra a soma dos atributos da carta 2
+          } else if(escolha1==1 && escolha2 ==3|| escolha1==3 && escolha2==1){                    //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 3 ou 3 e 1  
+              soma3= populacao1 +(int)PIB1;                                                      //se sim soma populacao1 a PIB1 convertendo PIB1 para int
+              soma4= populacao2+(int)PIB2;                                                      // soma populacao2 e PIB2 convertendo PIB2 para int
+              printf("Soma dos atributos da Carta 1:%d",soma3);                                // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma4);                              // Mostra a soma dos atributos da carta 2                                                      
+           } else if(escolha1==1 && escolha2 ==4|| escolha1==4 && escolha2==1){              //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 4 ou 4 e 1  
+              soma5= populacao1 +pontos_turisticos1;                                        //se sim soma populacao1 a pontos_turisticos1 
+              soma6= populacao2+pontos_turisticos2;                                        // soma populacao2 e pontos_turisticos2
+              printf("Soma dos atributos da Carta 1:%d",soma5);                           // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma6);                         // Mostra a soma dos atributos da carta 2                                                      
+          } else if(escolha1==1 && escolha2 ==5|| escolha1==5 && escolha2==1){          //Função que verifica se escolha1 e escolha2 forem respectivamente 1 e 5 ou 5 e 1  
+              soma7= populacao1 +(int)pontos_turisticos1;                              //se sim soma populacao1 a densidade_populacional1 convertendo densidade_populaciona1 para int
+              soma8= populacao2+(int)pontos_turisticos2;                              // soma populacao2 e densidade_populacional2 convertendo densidade_populacional2
+              printf("Soma dos atributos da Carta 1:%d",soma7);                      // Mostra a soma dos atributos da carta 1 
+              printf("Soma dos atributos da Carta 2:%d ",soma8);                    // Mostra a soma dos atributos da carta 2                                                     
+         } else if(escolha1==1 && escolha2 ==6|| escolha1==6 && escolha2==1){      //Função que verifica se escolha1 e escolha2 forem respectivamente 1 e 6 ou 6 e 1  
+              soma9= populacao1 +(int)PIB_per1;                                   //se sim soma populacao1 a PIB_per1 
+              soma10= populacao2+(int)PIB_per2;                                  // soma populacao2 e PIB_per2
+              printf("Soma dos atributos da Carta 1:%d",soma9);                 // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma10);              // Mostra a soma dos atributos da carta 2                                                      
 
+         } else if(escolha1==2 && escolha2 ==3|| escolha1==3 && escolha2==2){      //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 3 ou 3 e 2  
+              soma11= (int)area1 +(int)PIB1;                                      //se sim soma area1 e PIB1(convertendo PIB para int)
+              soma12= (int)area2+(int)PIB2;                                      // soma area2 e PIB2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma1);                 // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma2);               // Mostra a soma dos atributos da carta 2                                                      
 
+         } else if(escolha1==2 && escolha2 ==4|| escolha1==4 && escolha2==2){        //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 4 ou 4 e 2  
+              soma13= (int)area1 +pontos_turisticos1;                               //se sim soma area1 e pontos_turisticos1,convertendo area1 para int
+              soma14= (int)area2+pontos_turisticos2;                               // soma area2 e pontos_turisticos2 ,convertendo area2 para int
+              printf("Soma dos atributos da Carta 1:%d",soma13);                  // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma14);                // Mostra a soma dos atributos da carta 2                                                      
 
+        
+        } else if(escolha1==2 && escolha2==5|| escolha1==5 && escolha2==2){          //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 5 ou 5 e 2  
+              soma15= (int)area1 +(int)densidade_populacional1;                     //se sim soma area1 e densidade_populacional1,convertendo os dois para int
+              soma16= (int)area2+(int)densidade_populacional2;                     // soma area2 e densidade_populacional2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma13);                  // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma14);                // Mostra a soma dos atributos da carta 2                                                      
 
+        } else if(escolha1==2 && escolha2 ==6|| escolha1==6 && escolha2==2){              //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 6 ou 6 e 2  
+              soma17= (int)area1 +(int)PIB_per1;                                        //se sim soma area1 e PIb_per1,convertendo os dois para int
+              soma18= (int)area2+(int)PIB_per2;                                         // soma area2 e PIB_per2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma17);                       // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma18);                     // Mostra a soma dos atributos da carta 2                                                      
+        } else if(escolha1==3 && escolha2==4|| escolha1==4 && escolha2==3){          //Função que verifica se escolha1 e escolha2 forem respectivamente 3 e 4 ou 4 e 3  
+              soma19= (int)PIB1 +(int)pontos_turisticos1;                           //se sim soma PIB1 e pontos_turisticos1,convertendo pontos turísticos para int
+              soma20= (int)PIB2+(int)pontos_turisticos2;                           // soma PIB2 e pontos_turisticos2,convertendo pontos turisticos para int
+              printf("Soma dos atributos da Carta 1:%d",soma19);                  // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma20);                 // Mostra a soma dos atributos da carta 2                                                      
 
-           
-         
-         
+        } else if(escolha1==3 && escolha2==5|| escolha1==5 && escolha2==3){                     //Função que verifica se escolha1 e escolha2 forem respectivamente 3 e 4 ou 4 e 3  
+              soma21= (int)PIB1 +(int)densidade_populacional1;                                  //se sim soma PIB1 e densidade_populacional1,convertendo os dois para int
+              soma22= (int)PIB2+(int)densidade_populacional2;                                  // soma PIB2 e densidade_populacional2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma21);                              // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma22);                             // Mostra a soma dos atributos da carta 2                                                      
+        } else if(escolha1==3 && escolha2==6|| escolha1==6 && escolha2==3){                 //Função que verifica se escolha1 e escolha2 forem respectivamente 3 e 6 ou 6 e 3  
+              soma23= (int)PIB1 +(int)PIB_per1;                                            //se sim soma PIB1 e PIB_per1,convertendo os dois para int
+              soma24= (int)PIB2+(int)PIB_per2;                                            // soma PIB2 e PIB_per2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma23);                         // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma24);                         // Mostra a soma dos atributos da carta 2                                                      
+        } else if(escolha1==4 && escolha2==5|| escolha1==5 && escolha2==4){             //Função que verifica se escolha1 e escolha2 forem respectivamente 4 e 5 ou 4 e 5 
+              soma25= pontos_turisticos1+(int)densidade_populacional1;                  //se sim soma PIB1 e densidade_populacional1,convertendo densidadepara int
+              soma26= pontos_turisticos2+(int)densidade_populacional2;                 // soma PIB2 e densidade_populacional2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma25);                      // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma26);                      // Mostra a soma dos atributos da carta 2                                                      
+        } else if(escolha1==4 && escolha2==6|| escolha1==6 && escolha2==4){           //Função que verifica se escolha1 e escolha2 forem respectivamente 4 e 6 ou 6 e 4 
+              soma27= (int)PIB1 +(int)PIB_per1;                                      //se sim soma PIB1 e PIB_per1,convertendo os dois para int
+              soma28= (int)PIB2+(int)PIB_per2;                                      // soma PIB2 e PIB_per2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma27);                   // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma28);                  // Mostra a soma dos atributos da carta 2                                                      
+         } else if(escolha1==5 && escolha2 ==6|| escolha1==6 && escolha2==5){     //Função que verifica se escolha1 e escolha2 forem respectivamente 5 e 6 ou 6 e 5
+              soma29= (int)densidade_populacional1 +(int)PIB_per1;              //se sim soma densidade_populacional e PIB_per1,convertendo os dois para int
+              soma30= (int)densidade_populacional2+(int)PIB_per2;              // soma densidade_populacional2 e PIB_per2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d",soma29);              // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d ",soma30);             // Mostra a soma dos atributos da carta 2                                                      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  }   //T
+              } }   //T
 
 
 
