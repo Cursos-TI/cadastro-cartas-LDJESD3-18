@@ -221,13 +221,13 @@
         comparacao_populacao1= populacao1>populacao2 ? 1:0  ;//Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao1 e retonar 1 se sim
         comparacao_igual_p1= populacao1==populacao2? 1:0 ;     //Operador que verfifica se as populações  forem iguais e armazena na variável comparacao_igual_p1
         if(comparacao_igual_p1==1) {                           //Função   que determina se comparacao_igual_p1 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
+           printf("Empate!\n");                                                                 //Mostra "Empate!"
  
         }else  if(comparacao_populacao1==1){                    //Função que verfifica se comparcao_populacao1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                            //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
         break;                                              //sai do switch
 
         case 2:                                                 //se escolha1 = 02    
@@ -238,14 +238,14 @@
         comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área 2 e armazena na variável comparação_area1 e retonar 1 se sim
         comparacao_igual_a1= area1==area2? 1:0 ;         //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
         if(comparacao_igual_a1==1) {                      //Função   que determina se comparacao_igual_a1 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
+           printf("Empate!\n");                                                                 //Mostra "Empate!"
   
         
         }else if(comparacao_area1==1){                 //Função que verifica se comparcao_area1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                             //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
         break;                                             //sai do switch
 
         case 3:                                                  //se escolha1 = 03   
@@ -256,13 +256,13 @@
         comparacao_PIB1= PIB1>PIB2 ? 1:0  ;                  //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB1 e retonar 1 se sim
         comparacao_igual_P1= PIB1==PIB2? 1:0 ;              //Operador que verfifica se os PIBS  forem iguais e armazena na variável comparacao_igual_P1
         if(comparacao_igual_P1==1) {                      //Função   que determina se comparacao_igual_P1 for igual a 1
-           printf("Empate!");                            //Mostra "Empate!"
+           printf("Empate!\n");                            //Mostra "Empate!"
  
         } else if(comparacao_PIB1==1){                        //Função que verfifica se comparacao_PIB1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                           //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                               //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }                                               //Mostra que Carta 2 venceu
         break;                                                                                   //sai do switch
         
         case 4:                                                                                 //se escolha1 = 04    
@@ -273,14 +273,14 @@
         comparacao_pontos1= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos1 e retonar 1 se sim
         comparacao_igual_ptu1= pontos_turisticos1==pontos_turisticos2? 1:0 ;              //Operador que verifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
         if(comparacao_igual_ptu1==1) {                                                   //Função   que determina se comparacao_igual_ptu2 for igual a 1
-           printf("Empate!");                                                          //Mostra "Empate!"
+           printf("Empate!\n");                                                          //Mostra "Empate!"
          
          
         } else if(comparacao_pontos1==1){                                                       //Se não verifica se comparacao_pontos1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                             //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                          //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }                                          //Mostra que Carta 2 venceu
         break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha1 = 05   
@@ -294,10 +294,10 @@
            printf("Empate!");                                                                 //Mostra "Empate!"                  
         
         }else if(comparacao_densidade1==1){                                                      //Se não verifica se comparacao_densidade1 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                                 //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                             //Mostra que Carta 2 venceu  
+            printf("Carta 2(%s)venceu!\n",cidade2); }                                             //Mostra que Carta 2 venceu  
         break;                                                                                  //sai do switch
 
         case 6:                                                        //se escolha1 = 06   
@@ -311,10 +311,10 @@
            printf("Empate!");                                                                 //Mostra "Empate!"
 
         }else  if(comparacao_PIB_per1==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                               //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }          // Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }          // Mostra que Carta 2 venceu
         break;                                              //sai do switch
 
         default:
@@ -351,13 +351,13 @@
         comparacao_populacao2= populacao1>populacao2 ? 1:0  ; //Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao2 e retonar 1 se sim
         comparacao_igual_p2= populacao1==populacao2? 1:0 ;                 //Operador que verfifica se as populações forem iguais e armazena na variável comparacao_igual_p2
         if(comparacao_igual_p2==1) {                                                        //Função   que determina se comparacao_igual_p2 for igual a 1
-           printf("Empate!");                                                              //Mostra "Empate!"
+           printf("Empate!\n");                                                              //Mostra "Empate!"
 
         } else if(comparacao_populacao2==1){                   //Se não que verifica se comparacao_populacao2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                            //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
         break;                                              //sai do switch
 
         case 2:                                                 //se escolha2 = 02    
@@ -368,13 +368,13 @@
         comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área2 e armazena na variável comparação_area2 e retonar 1 se sim
         comparacao_igual_a2= area1==area2? 1:0 ;                 //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a2
         if(comparacao_igual_a2==1) {                                                        //Função   que determina se comparacao_igual_a2 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
+           printf("Empate!\n");                                                                 //Mostra "Empate!"
 
         } else if(comparacao_area2==1){                  //Se nãoverifica se comparacao_area2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                             //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
         break;                                             //sai do switch
 
         case 3:                                                  //se escolha2 = 03   
@@ -385,13 +385,13 @@
         comparacao_PIB2= PIB1>PIB2 ? 1:0  ;                                                   //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB2 e retonar 1 se sim
         comparacao_igual_P2= PIB1==PIB2? 1:0 ;                                                 //Operador que verfifica se os PIBsforem iguais e armazena na variável comparacao_igual_P2
         if(comparacao_igual_ptu2==1) {                                                        //Função   que determina se comparacao_igual_P2 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
+           printf("Empate!\n");                                                                 //Mostra "Empate!"
 
         }  else if(comparacao_PIB2==1){                   //Se não que verifica se comparcao_PIB2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                           //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                               //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }                                               //Mostra que Carta 2 venceu
         break;                                                                                   //sai do switch
         
         case 4:                                                                                 //se escolha2 = 04    
@@ -405,10 +405,10 @@
            printf("Empate!");                                                                 //Mostra "Empate!"
 
         } else if(comparacao_pontos2==1){                                                  // Se não verifica se comparacao_pontos2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                             //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                                          //Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }                                          //Mostra que Carta 2 venceu
         break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha2 = 05   
@@ -422,7 +422,7 @@
            printf("Empate!");                                                               //Mostra "Empate!"
 
         } else if(comparacao_densidade2==1){                                  //Se não verifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);                           //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);                           //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                          //Se não
             printf("Carta 2(%s)venceu!",cidade2); }                      // Mostra que Carta 2 venceu
@@ -435,13 +435,13 @@
         comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparacao_PIB_per2 e retonar 1 se sim
         comparacao_igual_p2= PIB_per1==PIB_per2? 1:0 ;            //Operador que verfifica se os PIBs Per Capita forem iguais e armazena na variável comparacao_igual_P2
         if(comparacao_igual_p2==1) {                             //Função   que determina se comparacao_igual_p2 for igual a 1
-           printf("Empate!");                                   //Mostra "Empate!"
+           printf("Empate!\n");                                   //Mostra "Empate!"
 
         } else if(comparacao_PIB_per2==1){                      //Se não verifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
+            printf("Carta 1(%s) venceu!\n",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                               //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
+            printf("Carta 2(%s)venceu!\n",cidade2); }           // Mostra que Carta 2 venceu
         break;                                               //sai do switch      
           
           }} if(escolha1==1 && escolha2 ==2|| escolha1==2 && escolha2==1){                             //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
