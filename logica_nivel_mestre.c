@@ -526,7 +526,7 @@
               printf("Soma dos atributos da Carta 1:%d",soma29);              // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d ",soma30);             // Mostra a soma dos atributos da carta 2                                                      
 
-              } }   //T
+              } }   
 
 
 
