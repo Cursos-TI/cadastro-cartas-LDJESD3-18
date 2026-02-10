@@ -415,7 +415,9 @@
             printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
         break;                                               //sai do switch  
           
-          }}
+          }}//
+
+
 
 
 
