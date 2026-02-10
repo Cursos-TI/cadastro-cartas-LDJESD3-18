@@ -220,51 +220,24 @@
         printf("4.População de %s:%d\n",cidade2,populacao2); //Mostra a população da cidade2
         comparacao_populacao1= populacao1>populacao2 ? 1:0  ;//Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao1 e retonar 1 se sim
         comparacao_igual_p1= populacao1==populacao2? 1:0 ;     //Operador que verfifica se as populações  forem iguais e armazena na variável comparacao_igual_p1
-        if(comparacao_igual_p1==1) {                           //Função   que determina se comparacao_igual_p1 for igual a 1
-           printf("Empate!\n");                                                                 //Mostra "Empate!"
- 
-        }else  if(comparacao_populacao1==1){                    //Função que verfifica se comparcao_populacao1 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                            //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
-        break;                                              //sai do switch
-
+        
         case 2:                                                 //se escolha1 = 02    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);        // Mostra o nome das cidades  
         printf("2.Área\n");                                   //Mostra  a palavra Área
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
         comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área 2 e armazena na variável comparação_area1 e retonar 1 se sim
-        comparacao_igual_a1= area1==area2? 1:0 ;         //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
-        if(comparacao_igual_a1==1) {                      //Função   que determina se comparacao_igual_a1 for igual a 1
-           printf("Empate!\n");                                                                 //Mostra "Empate!"
-  
+        comparacao_igual_a1= area1==area2? 1:0 ;          //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
         
-        }else if(comparacao_area1==1){                 //Função que verifica se comparcao_area1 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                             //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
-        break;                                             //sai do switch
-
         case 3:                                                  //se escolha1 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
         printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
         comparacao_PIB1= PIB1>PIB2 ? 1:0  ;                  //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB1 e retonar 1 se sim
-        comparacao_igual_P1= PIB1==PIB2? 1:0 ;              //Operador que verfifica se os PIBS  forem iguais e armazena na variável comparacao_igual_P1
-        if(comparacao_igual_P1==1) {                      //Função   que determina se comparacao_igual_P1 for igual a 1
-           printf("Empate!\n");                            //Mostra "Empate!"
- 
-        } else if(comparacao_PIB1==1){                        //Função que verfifica se comparacao_PIB1 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                           //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }                                               //Mostra que Carta 2 venceu
-        break;                                                                                   //sai do switch
-        
+        comparacao_igual_P1= PIB1==PIB2? 1:0 ;              //Operador que verfifica se os PIBS  forem iguais e armazena na variável comparacao_igual_P1                                  
+        break;  
+       
         case 4:                                                                                 //se escolha1 = 04    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
         printf("2.Número de pontos turísticos\n");                                            //Mostra  a expressão número de pontos turísticos
@@ -272,15 +245,6 @@
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
         comparacao_pontos1= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos1 e retonar 1 se sim
         comparacao_igual_ptu1= pontos_turisticos1==pontos_turisticos2? 1:0 ;              //Operador que verifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
-        if(comparacao_igual_ptu1==1) {                                                   //Função   que determina se comparacao_igual_ptu2 for igual a 1
-           printf("Empate!\n");                                                          //Mostra "Empate!"
-         
-         
-        } else if(comparacao_pontos1==1){                                                       //Se não verifica se comparacao_pontos1 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                                                             //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }                                          //Mostra que Carta 2 venceu
         break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha1 = 05   
@@ -289,15 +253,7 @@
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
         comparacao_densidade1= (1/densidade_populacional1)>(1/densidade_populacional2) ? 1:0  ; //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
-        comparacao_igual_dp1= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se as densidades  forem iguais e armazena na variável comparacao_igual_dp2
-        if(comparacao_igual_dp1==1) {                                                          //Função   que determina se comparacao_igual_dp2 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"                  
-        
-        }else if(comparacao_densidade1==1){                                                      //Se não verifica se comparacao_densidade1 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                                                                 //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }                                             //Mostra que Carta 2 venceu  
+        comparacao_igual_dp1= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se as densidades  forem iguais e armazena na variável comparacao_igual_dp2  
         break;                                                                                  //sai do switch
 
         case 6:                                                        //se escolha1 = 06   
@@ -307,16 +263,7 @@
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
         comparacao_PIB_per1= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
         comparacao_igual_Pp1= PIB_per1==PIB_per2? 1:0 ;          //Operador que verfifica se os PIBS per Capita forem iguais e armazena na variável comparacao_igual_Pp2
-        if(comparacao_igual_Pp1==1) {                           //Função   que determina se comparacao_igual_Pp2 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
-
-        }else  if(comparacao_PIB_per1==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                               //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }          // Mostra que Carta 2 venceu
-        break;                                              //sai do switch
-
+        break;                                                  //sai do switch
         default:
             printf("Opção inválida!!");                          
             break;                                           //sai do switch
@@ -325,17 +272,17 @@
          
          
 
-         printf("\n \n");                                                         //Faz um espaçamento
+        printf("\n \n");                                                         //Faz um espaçamento
    
          printf("Comparação de Cartas \n");                                              //Mostra a expressão comparação de cartas
          printf("Escolha outro atributo para a comparação: \n");                        //Mostra a expressão escolha outro atributo para a comparação
          printf("1.População\n");                                                      //Mostra a palavra população e seu número no menu
-        printf("2.Área\n");                                                          //Mostra a palavra área e o seu número no menu
-        printf("3.PIB \n");                                                         //Mostra a palavra PIB e seu número no menu
-        printf("4.Pontos turísticos\n");                                           //Mostra a expressão pontos turísticos e o seu número
-        printf("5.Densidade Populacional \n");                                    //Mostra a expressão densidade populacional e o seu número no menu
-        printf("6.PIB Per Capita \n");                                           //Mostra a expressão PIB Per Capita e o seu número no menu
-        scanf("%d",&escolha2);                                                   //Armazena o número da escolha na variável escolha2
+         printf("2.Área\n");                                                          //Mostra a palavra área e o seu número no menu
+         printf("3.PIB \n");                                                         //Mostra a palavra PIB e seu número no menu
+         printf("4.Pontos turísticos\n");                                           //Mostra a expressão pontos turísticos e o seu número
+         printf("5.Densidade Populacional \n");                                    //Mostra a expressão densidade populacional e o seu número no menu
+         printf("6.PIB Per Capita \n");                                           //Mostra a expressão PIB Per Capita e o seu número no menu
+         scanf("%d",&escolha2);                                                   //Armazena o número da escolha na variável escolha2
   
         printf("\n \n");                                                        //Faz um espaçamento
 
@@ -350,14 +297,6 @@
         printf("4.População de %s:%d\n",cidade2,populacao2);  //Mostra a população da cidade2
         comparacao_populacao2= populacao1>populacao2 ? 1:0  ; //Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao2 e retonar 1 se sim
         comparacao_igual_p2= populacao1==populacao2? 1:0 ;                 //Operador que verfifica se as populações forem iguais e armazena na variável comparacao_igual_p2
-        if(comparacao_igual_p2==1) {                                                        //Função   que determina se comparacao_igual_p2 for igual a 1
-           printf("Empate!\n");                                                              //Mostra "Empate!"
-
-        } else if(comparacao_populacao2==1){                   //Se não que verifica se comparacao_populacao2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                            //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
         break;                                              //sai do switch
 
         case 2:                                                 //se escolha2 = 02    
@@ -367,31 +306,14 @@
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
         comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área2 e armazena na variável comparação_area2 e retonar 1 se sim
         comparacao_igual_a2= area1==area2? 1:0 ;                 //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a2
-        if(comparacao_igual_a2==1) {                                                        //Função   que determina se comparacao_igual_a2 for igual a 1
-           printf("Empate!\n");                                                                 //Mostra "Empate!"
-
-        } else if(comparacao_area2==1){                  //Se nãoverifica se comparacao_area2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                             //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }         //Mostra que Carta 2 venceu
-        break;                                             //sai do switch
 
         case 3:                                                  //se escolha2 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
         printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
-        comparacao_PIB2= PIB1>PIB2 ? 1:0  ;                                                   //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB2 e retonar 1 se sim
-        comparacao_igual_P2= PIB1==PIB2? 1:0 ;                                                 //Operador que verfifica se os PIBsforem iguais e armazena na variável comparacao_igual_P2
-        if(comparacao_igual_ptu2==1) {                                                        //Função   que determina se comparacao_igual_P2 for igual a 1
-           printf("Empate!\n");                                                                 //Mostra "Empate!"
-
-        }  else if(comparacao_PIB2==1){                   //Se não que verifica se comparcao_PIB2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                           //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }                                               //Mostra que Carta 2 venceu
+        comparacao_PIB_per1= PIB1>PIB2 ? 1:0  ;           //Operador que compara se PIB1 for maior que PIB2 e armazena na variável comparcao_P2 e retonar 1 se sim
+        comparacao_igual_Pp1= PIB1==PIB2? 1:0 ;          //Operador que verifica se os PIBS forem iguais e armazena na variável comparacao_igual_P2
         break;                                                                                   //sai do switch
         
         case 4:                                                                                 //se escolha2 = 04    
@@ -399,16 +321,8 @@
         printf("2.Número de pontos turísticos\n");                                            //Mostra  a palavra número de pontos turísticos
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
-         comparacao_pontos2= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos2 e retonar 1 se sim
-         comparacao_igual_ptu2= pontos_turisticos1==pontos_turisticos2? 1:0 ;                 //Operador que verfifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
-        if(comparacao_igual_ptu2==1) {                                                        //Função   que determina se comparacao_igual_ptu2 for igual a 1
-           printf("Empate!");                                                                 //Mostra "Empate!"
-
-        } else if(comparacao_pontos2==1){                                                  // Se não verifica se comparacao_pontos2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                                                             //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }                                          //Mostra que Carta 2 venceu
+        comparacao_pontos2= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos2 e retonar 1 se sim
+        comparacao_igual_ptu2= pontos_turisticos1==pontos_turisticos2? 1:0 ;                 //Operador que verfifica se os pontos turísticos forem iguais e armazena na variável comparacao_igual_ptu2
         break;                                                                              //sai do switch
 
         case 5:                                                                                     //se escolha2 = 05   
@@ -416,55 +330,54 @@
         printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
-        comparacao_densidade2= (1/densidade_populacional1>1/densidade_populacional2) ? 1:0  ;  //Operador que compara se densidade_ppulacional1 for maior que densidade_populacional2 e armazena na variável comparcao_igual_dp2 e retonar 1 se sim
-        comparacao_igual_p2= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verifica se os PIBs forem iguais e armazena na variável comparacao_igual_dp2
-        if(comparacao_igual_p2==1) {                                                         //Função   que determina se comparacao_igual6 for igual a 1
-           printf("Empate!");                                                               //Mostra "Empate!"
+        comparacao_densidade2= densidade_populacional1>densidade_populacional2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
+        comparacao_igual_dp2= densidade_populacional1==densidade_populacional2? 1:0 ;          //Operador que verfifica se os PIBS per Capita forem iguais e armazena na variável comparacao_igual_Pp2
+        break;                                                                                 //sai do switch  
 
-        } else if(comparacao_densidade2==1){                                  //Se não verifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);                           //Mostra que Carta 1 (nome da cidade)venceu
 
-        } else {                                                          //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }                      // Mostra que Carta 2 venceu
-        break;                                                          //sai do switch  
-        case 6:                                                        //se escolha_atributo = 06   
-        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);               // Mostra o nome das cidades  
-        printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
-        printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
-        printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
-        comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparacao_PIB_per2 e retonar 1 se sim
-        comparacao_igual_p2= PIB_per1==PIB_per2? 1:0 ;            //Operador que verfifica se os PIBs Per Capita forem iguais e armazena na variável comparacao_igual_P2
-        if(comparacao_igual_p2==1) {                             //Função   que determina se comparacao_igual_p2 for igual a 1
-           printf("Empate!\n");                                   //Mostra "Empate!"
-
-        } else if(comparacao_PIB_per2==1){                      //Se não verifica se comparacao_PIB_per2 for igual a 1
-            printf("Carta 1(%s) venceu!\n",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
-
-        } else {                                               //Se não
-            printf("Carta 2(%s)venceu!\n",cidade2); }           // Mostra que Carta 2 venceu
-        break;                                               //sai do switch      
-          
-          }} if(escolha1==1 && escolha2 ==2|| escolha1==2 && escolha2==1){                             //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
+        case 6:                                                                               //se escolha_atributo = 06   
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                      // Mostra o nome das cidades  
+        printf("2.PIB Per Capita\n");                                                       //Mostra  a palavra PIB Per Capita
+        printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);                          //Mostra o PIB Per Capita de cidade1
+        printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);                         //Mostra o PIB Per Capita de cidade2
+        comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;                                  //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparacao_PIB_per2 e retonar 1 se sim
+        comparacao_igual_p2= PIB_per1==PIB_per2? 1:0 ;                                  //Operador que verfifica se os PIBs Per Capita forem iguais e armazena na variável comparacao_igual_P2
+        break;
+       }}
+        
+         if(escolha1==1 && escolha2 ==2|| escolha1==2 && escolha2==1){                                 //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
               soma1= populacao1 +(int)area1;                                                          //se sim soma populacao1 a area1 
               soma2= populacao2+(int)area2;                                                          // soma populacao2 e area2
               printf("Soma dos atributos da Carta 1:%d\n",soma1);                                   // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d \n",soma2);                                 // Mostra a soma dos atributos da carta 2
-          } else if(escolha1==1 && escolha2 ==3|| escolha1==3 && escolha2==1){                    //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 3 ou 3 e 1  
+
+              
+        
+
+
+             }else if(escolha1==1 && escolha2 ==3|| escolha1==3 && escolha2==1){                  //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 3 ou 3 e 1  
               soma3= populacao1 +(int)PIB1;                                                      //se sim soma populacao1 a PIB1 convertendo PIB1 para int
               soma4= populacao2+(int)PIB2;                                                      // soma populacao2 e PIB2 convertendo PIB2 para int
               printf("Soma dos atributos da Carta 1:%d\n",soma3);                              // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d\n ",soma4);                            // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d\n ",soma4);                            // Mostra a soma dos atributos da carta 2        
+              
+              
+
+
+
            } else if(escolha1==1 && escolha2 ==4|| escolha1==4 && escolha2==1){              //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 4 ou 4 e 1  
               soma5= populacao1 +pontos_turisticos1;                                        //se sim soma populacao1 a pontos_turisticos1 
               soma6= populacao2+pontos_turisticos2;                                        // soma populacao2 e pontos_turisticos2
               printf("Soma dos atributos da Carta 1:%d\n",soma5);                         // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d \n",soma6);                       // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d \n",soma6);                       // Mostra a soma dos atributos da carta 2    
+
           } else if(escolha1==1 && escolha2 ==5|| escolha1==5 && escolha2==1){          //Função que verifica se escolha1 e escolha2 forem respectivamente 1 e 5 ou 5 e 1  
               soma7= populacao1 +(int)pontos_turisticos1;                              //se sim soma populacao1 a densidade_populacional1 convertendo densidade_populaciona1 para int
               soma8= populacao2+(int)pontos_turisticos2;                              // soma populacao2 e densidade_populacional2 convertendo densidade_populacional2
               printf("Soma dos atributos da Carta 1:%d\n",soma7);                    // Mostra a soma dos atributos da carta 1 
-              printf("Soma dos atributos da Carta 2:%d \n",soma8);                  // Mostra a soma dos atributos da carta 2                                                     
-         } else if(escolha1==1 && escolha2 ==6|| escolha1==6 && escolha2==1){      //Função que verifica se escolha1 e escolha2 forem respectivamente 1 e 6 ou 6 e 1  
+              printf("Soma dos atributos da Carta 2:%d \n",soma8);                  // Mostra a soma dos atributos da carta 2    
+
+         }  if(escolha1==1 && escolha2 ==6|| escolha1==6 && escolha2==1){      //Função que verifica se escolha1 e escolha2 forem respectivamente 1 e 6 ou 6 e 1  
               soma9= populacao1 +(int)PIB_per1;                                   //se sim soma populacao1 a PIB_per1 
               soma10= populacao2+(int)PIB_per2;                                  // soma populacao2 e PIB_per2
               printf("Soma dos atributos da Carta 1:%d\n",soma9);               // Mostra a soma dos atributos da carta 1
@@ -473,8 +386,8 @@
          } else if(escolha1==2 && escolha2 ==3|| escolha1==3 && escolha2==2){      //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 3 ou 3 e 2  
               soma11= (int)area1 +(int)PIB1;                                      //se sim soma area1 e PIB1(convertendo PIB para int)
               soma12= (int)area2+(int)PIB2;                                      // soma area2 e PIB2,convertendo os dois para int
-              printf("Soma dos atributos da Carta 1:%d\n",soma1);                 // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d \n",soma2);               // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 1:%d\n",soma11);                 // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d \n",soma12);               // Mostra a soma dos atributos da carta 2                                                      
 
          } else if(escolha1==2 && escolha2 ==4|| escolha1==4 && escolha2==2){        //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 4 ou 4 e 2  
               soma13= (int)area1 +pontos_turisticos1;                               //se sim soma area1 e pontos_turisticos1,convertendo area1 para int
@@ -488,18 +401,19 @@
               soma16= (int)area2+(int)densidade_populacional2;                     // soma area2 e densidade_populacional2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d\n",soma13);                  // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d \n",soma14);                // Mostra a soma dos atributos da carta 2                                                      
-
+            
         } else if(escolha1==2 && escolha2 ==6|| escolha1==6 && escolha2==2){              //Função que verifica se escolha1 e escolha2 forem respectivamente 2 e 6 ou 6 e 2  
               soma17= (int)area1 +(int)PIB_per1;                                        //se sim soma area1 e PIb_per1,convertendo os dois para int
               soma18= (int)area2+(int)PIB_per2;                                         // soma area2 e PIB_per2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d\n",soma17);                       // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d \n",soma18);                     // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d \n",soma18);                     // Mostra a soma dos atributos da carta 2  
+
         } else if(escolha1==3 && escolha2==4|| escolha1==4 && escolha2==3){          //Função que verifica se escolha1 e escolha2 forem respectivamente 3 e 4 ou 4 e 3  
               soma19= (int)PIB1 +(int)pontos_turisticos1;                           //se sim soma PIB1 e pontos_turisticos1,convertendo pontos turísticos para int
               soma20= (int)PIB2+(int)pontos_turisticos2;                           // soma PIB2 e pontos_turisticos2,convertendo pontos turisticos para int
               printf("Soma dos atributos da Carta 1:%d\n",soma19);                  // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d\n ",soma20);                 // Mostra a soma dos atributos da carta 2                                                      
-
+             printf("Soma dos atributos da Carta 2:%d\n ",soma20);                 // Mostra a soma dos atributos da carta 2  
+              
         } else if(escolha1==3 && escolha2==5|| escolha1==5 && escolha2==3){                     //Função que verifica se escolha1 e escolha2 forem respectivamente 3 e 4 ou 4 e 3  
               soma21= (int)PIB1 +(int)densidade_populacional1;                                  //se sim soma PIB1 e densidade_populacional1,convertendo os dois para int
               soma22= (int)PIB2+(int)densidade_populacional2;                                  // soma PIB2 e densidade_populacional2,convertendo os dois para int
@@ -509,24 +423,32 @@
               soma23= (int)PIB1 +(int)PIB_per1;                                            //se sim soma PIB1 e PIB_per1,convertendo os dois para int
               soma24= (int)PIB2+(int)PIB_per2;                                            // soma PIB2 e PIB_per2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d",soma23);                         // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d ",soma24);                         // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d ",soma24);                         // Mostra a soma dos atributos da carta 2  
+
         } else if(escolha1==4 && escolha2==5|| escolha1==5 && escolha2==4){             //Função que verifica se escolha1 e escolha2 forem respectivamente 4 e 5 ou 4 e 5 
               soma25= pontos_turisticos1+(int)densidade_populacional1;                  //se sim soma PIB1 e densidade_populacional1,convertendo densidadepara int
               soma26= pontos_turisticos2+(int)densidade_populacional2;                 // soma PIB2 e densidade_populacional2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d\n",soma25);                      // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d \n",soma26);                      // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d \n",soma26);                      // Mostra a soma dos atributos da carta 2  
+
         } else if(escolha1==4 && escolha2==6|| escolha1==6 && escolha2==4){           //Função que verifica se escolha1 e escolha2 forem respectivamente 4 e 6 ou 6 e 4 
               soma27= (int)PIB1 +(int)PIB_per1;                                      //se sim soma PIB1 e PIB_per1,convertendo os dois para int
               soma28= (int)PIB2+(int)PIB_per2;                                      // soma PIB2 e PIB_per2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d\n",soma27);                   // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d\n ",soma28);                  // Mostra a soma dos atributos da carta 2                                                      
-         } else if(escolha1==5 && escolha2 ==6|| escolha1==6 && escolha2==5){     //Função que verifica se escolha1 e escolha2 forem respectivamente 5 e 6 ou 6 e 5
-              soma29= (int)densidade_populacional1 +(int)PIB_per1;              //se sim soma densidade_populacional e PIB_per1,convertendo os dois para int
-              soma30= (int)densidade_populacional2+(int)PIB_per2;              // soma densidade_populacional2 e PIB_per2,convertendo os dois para int
-              printf("Soma dos atributos da Carta 1:%d\n",soma29);              // Mostra a soma dos atributos da carta 1
-              printf("Soma dos atributos da Carta 2:%d\n ",soma30);             // Mostra a soma dos atributos da carta 2                                                      
+              printf("Soma dos atributos da Carta 2:%d\n ",soma28);                  // Mostra a soma dos atributos da carta 2   
 
-              } }  
+         } else if(escolha1==5 && escolha2 ==6|| escolha1==6 && escolha2==5){     //Função que verifica se escolha1 e escolha2 forem respectivamente 5 e 6 ou 6 e 5
+              soma29= (int)1/densidade_populacional1 +(int)PIB_per1;              //se sim soma densidade_populacional e PIB_per1,convertendo os dois para int
+              soma30= (int)1/densidade_populacional2+(int)PIB_per2;              // soma densidade_populacional2 e PIB_per2,convertendo os dois para int
+              printf("Soma dos atributos da Carta 1:%d\n",soma29);              // Mostra a soma dos atributos da carta 1
+              printf("Soma dos atributos da Carta 2:%d\n ",soma30);             // Mostra a soma dos atributos da carta 2   
+              if(comparacao_densidade1==1&& comparacao_PIB_per1==0 ||comparacao_densidade2==1&& comparacao_PIB_per2==0)            //Se a  carta 1 um ganhou uma comparação e perdeu a outra                                     
+                 printf("Empate!")                                                                                       //Mostra Empate
+                
+              } else if(comparacao_densidade1==1 && comparacao_PIB_per1==1||comparacao_densidade2==1&& comparacao_PIB_per2==1)  
+              printf("Carta1 (%s)venceu",cidade1);
+             }
+
               
                 //valores para testar:
                //Carta 01
@@ -534,9 +456,4 @@
              // Carta 02
             //Estado:C,Código da Carta:C02,Nome da Cidade:Natal,População:12000,Área:2000.0,PIB:24000.0,Pontos turísticos:2
 
-     
-
-
-
-
-
+            
