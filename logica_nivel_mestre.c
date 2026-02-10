@@ -29,10 +29,10 @@
     int escolha2;                                                                         //Declara o formato da variável escolha2(número inteiro)
     int comparacao_populacao2;                                                           //Declara o fomato da variável comparacao_populacao2(número inteiro)
     int comparacao_area2;                                                               //Declara o formato da variável compaarcao_area2(número inteiro)
-    int comparcao_PIB2;                                                                //Declara o formato da variável comparacao_PIB2(número inteiro)
+    int comparacao_PIB2;                                                                //Declara o formato da variável comparacao_PIB2(número inteiro)
     int comparacao_pontos2;                                                           //Declara o fomato da variável comparacao_pontos2(número inteiro)
     int comparacao_densidade2;                                                       //Declara o formato da variável comparacao_densidade2(número inteiro)
-    int comparcao_PIB_per2;                                                         //Declara o formato da variável comparacao_PIB_per2(número inteiro)
+    int comparacao_PIB_per2;                                                         //Declara o formato da variável comparacao_PIB_per2(número inteiro)
 
 
 
@@ -170,8 +170,8 @@
   
 
   
-    switch(escolha1)                                               //Função que seleciona o valor de escolha para direcionar o usuário para um dos tópicos
-      { case 1:                                                  //se escolha_atributo = 01    
+    switch(escolha1)                                               //Função que seleciona o valor de escolha1 para direcionar o usuário para um dos tópicos
+      { case 1:                                                  //se escolha1 = 01    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
         printf("2.População\n");                               //Mostra  a palavra População
         printf("3.População de %s:%d\n",cidade1,populacao1);  //Mostra a população de cidade1
@@ -184,7 +184,7 @@
             printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
         break;                                              //sai do switch
 
-        case 2:                                                 //se escolha_atributo = 02    
+        case 2:                                                 //se escolha1 = 02    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);        // Mostra o nome das cidades  
         printf("2.Área\n");                                   //Mostra  a palavra Área
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
@@ -197,7 +197,7 @@
             printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
         break;                                             //sai do switch
 
-        case 3:                                                  //se escolha_atributo = 03   
+        case 3:                                                  //se escolha1 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
         printf("2.PIB\n");                                     //Mostra  a palavra PIB
         printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
@@ -210,9 +210,9 @@
             printf("Carta 2(%s)venceu!",cidade2); }                                               //Mostra que Carta 2 venceu
         break;                                                                                   //sai do switch
         
-        case 4:                                                                                 //se escolha_atributo = 04    
+        case 4:                                                                                 //se escolha1 = 04    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
-        printf("2.Número de pontos turísticos\n");                                            //Mostra  a palavra número de pontos turísticos
+        printf("2.Número de pontos turísticos\n");                                            //Mostra  a expressão número de pontos turísticos
         printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
         printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
          comparacao_pontos1= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos1 e retonar 1 se sim
@@ -223,13 +223,117 @@
             printf("Carta 2(%s)venceu!",cidade2); }                                          //Mostra que Carta 2 venceu
         break;                                                                              //sai do switch
 
-        case 5:                                                                                     //se escolha_atributo = 05   
+        case 5:                                                                                     //se escolha1 = 05   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                                 // Mostra o nome das cidades  
-        printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
+        printf("2.Densidade Populacional\n");                                                     //Mostra  a expressão Densidade Populacional
         printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
         printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
         comparacao_densidade1= densidade_populacional1>densidade_populacional2 ? 1:0  ;       //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade1 e retonar 1 se sim
             if(comparacao_densidade1==1){                                                       //Função que verfifica se comparacao_densidade1 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                                                                 //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }                                             //Mostra que Carta 2 venceu  
+        break;                                                                                  //sai do switch
+
+        case 6:                                                        //se escolha1 = 06   
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);               // Mostra o nome das cidades  
+        printf("2.PIB Per Capita\n");                                //Mostra  a expressão PIB Per Capita
+        printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
+        printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
+        comparacao_PIB_per1= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
+            if(comparacao_PIB_per1==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                               //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }          // Mostra que Carta 2 venceu
+        break;                                               //sai do switch
+
+        default:
+            printf("Opção inválida!!");                          
+            break;                                           //sai do switch
+        
+         }
+         
+         
+
+         printf("\n \n");                                                         //Faz um espaçamento
+   
+         printf("Comparação de Cartas \n");                                              //Mostra a expressão comparação de cartas
+         printf("Escolha outro atributo para a comparação: \n");                        //Mostra a expressão escolha outro atributo para a comparação
+         printf("1.População\n");                                                      //Mostra a palavra população e seu número no menu
+        printf("2.Área\n");                                                          //Mostra a palavra área e o seu número no menu
+        printf("3.PIB \n");                                                         //Mostra a palavra PIB e seu número no menu
+        printf("4.Pontos turísticos\n");                                           //Mostra a expressão pontos turísticos e o seu número
+        printf("5.Densidade Populacional \n");                                    //Mostra a expressão densidade populacional e o seu número no menu
+        printf("6.PIB Per Capita \n");                                           //Mostra a expressão PIB Per Capita e o seu número no menu
+        scanf("%d",&escolha2);                                                   //Armazena o número da escolha na variável escolha2
+  
+        printf("\n \n");                                                        //Faz um espaçamento
+
+        if(escolha1==escolha2){                                                            //Função que verifica se escola 1 for igual a escolha 2
+           printf("Você escolheu o mesmo atributo,Reinicie o jogo e escolha outro");      //Mostra a frase "Você escolheu o mesmo atributo,Reinicie o jogo e escolha outro"
+        }else{
+       switch(escolha2)                                            //Função que seleciona o valor de escolha2 para direcionar o usuário para um dos tópicos
+       { case 1:                                                  //se escolha2 = 01    
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);          // Mostra o nome das cidades  
+        printf("2.População\n");                                //Mostra  a palavra População
+        printf("3.População de %s:%d\n",cidade1,populacao1);   //Mostra a população de cidade1
+        printf("4.População de %s:%d\n",cidade2,populacao2);  //Mostra a população da cidade2
+        comparacao_populacao2= populacao1>populacao2 ? 1:0  ; //Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao2 e retonar 1 se sim
+            if(comparacao_populacao2==1){                    //Função que verfifica se comparcao_populacao2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);           //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                            //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+        break;                                              //sai do switch
+
+        case 2:                                                 //se escolha2 = 02    
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);        // Mostra o nome das cidades  
+        printf("2.Área\n");                                   //Mostra  a palavra Área
+        printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
+        printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
+        comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se area 1 for maior que população2 e armazena na variável comparação_area2 e retonar 1 se sim
+            if(comparacao_area2==1){                       //Função que verfifica se comparacao_area2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                             //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }         //Mostra que Carta 2 venceu
+        break;                                             //sai do switch
+
+        case 3:                                                  //se escolha2 = 03   
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
+        printf("2.PIB\n");                                     //Mostra  a palavra PIB
+        printf("3.PIB de %s:%.2f\n",cidade1,PIB1);            //Mostra o PIB de cidade1
+        printf("4.PIB de %s:%.2f\n",cidade2,PIB2);           //Mostra o PIB da cidade2
+         comparacao_PIB2= PIB1>PIB2 ? 1:0  ;                //Operador que compara se PIB 1 for maior que PIB 2 e armazena na variável comparação_PIB2 e retonar 1 se sim
+            if(comparacao_PIB2==1){                        //Função que verfifica se comparcao_PIB2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);        //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                           //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }                                               //Mostra que Carta 2 venceu
+        break;                                                                                   //sai do switch
+        
+        case 4:                                                                                 //se escolha2 = 04    
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                        // Mostra o nome das cidades  
+        printf("2.Número de pontos turísticos\n");                                            //Mostra  a palavra número de pontos turísticos
+        printf("3.Número de pontos turísticos de %s:%d\n",cidade1,pontos_turisticos1 ) ;     //Mostra o número de pontos turísticos da cidade1
+        printf("4.Número de pontos turísticos de %s:%d\n",cidade2,pontos_turisticos2);      //Mostra o número de pontos turísticos da cidade2
+         comparacao_pontos2= pontos_turisticos1>pontos_turisticos2 ? 1:0  ;                //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena na variável comparacao_pontos2 e retonar 1 se sim
+            if(comparacao_pontos2==1){                                                    //Função que verfifica se comparacao_pontos2 for igual a 1
+            printf("Carta 1(%s) venceu!",cidade1);                                       //Mostra que Carta 1 (nome da cidade)venceu
+
+        } else {                                                                             //Se não
+            printf("Carta 2(%s)venceu!",cidade2); }                                          //Mostra que Carta 2 venceu
+        break;                                                                              //sai do switch
+
+        case 5:                                                                                     //se escolha2 = 05   
+        printf("1.Cidades:%s e %s:\n",cidade1,cidade2);                                            // Mostra o nome das cidades  
+        printf("2.Densidade Populacional\n");                                                     //Mostra  a palavra Densidade Populacional
+        printf("3.Densidade Populacional de %s:%.2f\n",cidade1,densidade_populacional1);         //Mostra a Densidade Populacional de cidade 1
+        printf("4.Densidade Populacional de %s:%.2f\n",cidade2,densidade_populacional2);        //Mostra a Densidade Populacional da cidade2
+        comparacao_densidade2= densidade_populacional1>densidade_populacional2 ? 1:0  ;       //Operador que compara se densidade_populacional1 for maior que densidade_populacional2 e armazena na variável comparacao_densidade2 e retonar 1 se sim
+            if(comparacao_densidade2==1){                                                       //Função que verfifica se comparacao_densidade2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);                                              //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                                                                 //Se não
@@ -241,22 +345,56 @@
         printf("2.PIB Per Capita\n");                                //Mostra  a palavra PIB Per Capita
         printf("3.PIB Per Capita de %s:%.2f\n",cidade1,PIB_per1);   //Mostra o PIB Per Capita de cidade1
         printf("4.PIB Per Capita de %s:%.2f\n",cidade2,PIB_per2);  //Mostra o PIB Per Capita de cidade2
-        comparacao_PIB_per1= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se pontos_turísticos1 for maior que pontos_turísticos2 e armazena a variável P e retonar 1 se sim
-            if(comparacao_pontos1==1){                           //Função que verfifica se comparacao_pontos1 for igual a 1
+        comparacao_PIB_per2= PIB_per1>PIB_per2 ? 1:0  ;           //Operador que compara se PIB_per1 for maior que PIB_per2 e armazena na variável comparcao_PIB_per2 e retonar 1 se sim
+            if(comparacao_PIB_per2==1){                           //Função que verfifica se comparacao_PIB_per2 for igual a 1
             printf("Carta 1(%s) venceu!",cidade1);             //Mostra que Carta 1 (nome da cidade)venceu
 
         } else {                                               //Se não
-            printf("Carta 2(%s)venceu!",cidade2); }          // Mostra que Carta 2 venceu
-        break;                                               //sai do switch
-
-        default:
-            printf("Opção inválida!!");                          
-            break;                                           //sai do switch
+            printf("Carta 2(%s)venceu!",cidade2); }           // Mostra que Carta 2 venceu
+        break;                                               //sai do switch     
         
-         }                                              
+         }}
+         
 
 
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  } 
 
 
 
