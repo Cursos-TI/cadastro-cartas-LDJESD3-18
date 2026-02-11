@@ -543,13 +543,13 @@
               soma24= (int)PIB2+(int)PIB_per2;                                            // soma PIB2 e PIB_per2,convertendo os dois para int
               printf("Soma dos atributos da Carta 1:%d",soma23);                         // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d ",soma24);                         // Mostra a soma dos atributos da carta 2 
-              if(comparacao_igual_P1 != comparacao_igual_Pp1||comparacao_igual_P2 != comparacao_igual_Pp2)            //Se a  carta 1 um ganhou uma comparação e perdeu a outra  e o mesmo com a carta                                   
+              if(comparacao_igual_P1 != comparacao_igual_Pp1||comparacao_igual_P2 != comparacao_igual_Pp2){           //Se a  carta 1 um ganhou uma comparação e perdeu a outra  e o mesmo com a carta                                   
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_PIB1 ==1 && comparacao_PIB_per1==1||comparacao_PIB2==1&& comparacao_PIB_per2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
     
 
 
