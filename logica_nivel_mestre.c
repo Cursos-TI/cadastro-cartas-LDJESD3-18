@@ -443,7 +443,7 @@
               printf("Soma dos atributos da Carta 1:%d\n",soma29);              // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d\n ",soma30);             // Mostra a soma dos atributos da carta 2   
               if(comparacao_densidade1==1&& comparacao_PIB_per1==0 ||comparacao_densidade2==1&& comparacao_PIB_per2==0)            //Se a  carta 1 um ganhou uma comparação e perdeu a outra                                     
-                 printf("Empate!")                                                                                       //Mostra Empate
+                 printf("Empate!") ;                                                                                      //Mostra Empate
                 
               } else if(comparacao_densidade1==1 && comparacao_PIB_per1==1||comparacao_densidade2==1&& comparacao_PIB_per2==1)  
               printf("Carta1 (%s)venceu",cidade1);
