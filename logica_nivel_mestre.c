@@ -219,7 +219,8 @@
         printf("3.População de %s:%d\n",cidade1,populacao1);  //Mostra a população de cidade1
         printf("4.População de %s:%d\n",cidade2,populacao2); //Mostra a população da cidade2
         comparacao_populacao1= populacao1>populacao2 ? 1:0  ;//Operador que compara se população 1 for maior que população2 e armazena na variável comparação_populacao1 e retonar 1 se sim
-        comparacao_igual_p1= populacao1==populacao2? 1:0 ;     //Operador que verfifica se as populações  forem iguais e armazena na variável comparacao_igual_p1
+        comparacao_igual_p1= populacao1==populacao2? 1:0 ;  //Operador que verfifica se as populações  forem iguais e armazena na variável comparacao_igual_p1
+        break;                                              //sai do switch
         
         case 2:                                                 //se escolha1 = 02    
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);        // Mostra o nome das cidades  
@@ -228,6 +229,7 @@
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
         comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área 2 e armazena na variável comparação_area1 e retonar 1 se sim
         comparacao_igual_a1= area1==area2? 1:0 ;          //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
+        break;                                              //sai do switch
         
         case 3:                                                  //se escolha1 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
@@ -304,7 +306,8 @@
         printf("3.Área de %s:%.2f\n",cidade1,area1);         //Mostra a área de cidade1
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
         comparacao_area2= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área2 e armazena na variável comparação_area2 e retonar 1 se sim
-        comparacao_igual_a2= area1==area2? 1:0 ;                 //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a2
+        comparacao_igual_a2= area1==area2? 1:0 ;          //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a2
+        break;                                              //sai do switch
 
         case 3:                                                  //se escolha2 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
@@ -353,7 +356,7 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s) venceu!",cidade1);
              } else {                                                                //Se não
                   printf("Carta 2 (%s) venceu",cidade2);                            //Mostra que Carta 2 venceu                                           
 
