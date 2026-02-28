@@ -211,22 +211,22 @@
           printf("Empate");             //Mostra a palavra empate
           
         } else if (populacao1>populacao2){          //Função que determina que se o valor da população1 é maior que a da população2
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s) venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         }else if(area1>area2){                       //Função que determina que se o valor da área1 é maior que o da área2
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s) venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         } else if(PIB1>PIB2){                       //Função que determina que se o valores do PIB1 é maior que o PIB2 
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s) venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         }else if(pontos_turisticos1>pontos_turisticos2){   //Função que determina que se o valores daos pontos turísticos 
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s) venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         }else if((1/densidade_populacional1)<(1/densidade_populacional2)){  //Função que determina que se o valor de densidade populacional 1 é menor que a densidade populacional2
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s)venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         } else if(PIB_per1>PIB_per2){                  //Função que determina que se o valor do PIB Per Capita 1 for maior que o do PIB Per Capita 2
-          printf("Carta 1(%s)",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
+          printf("Carta 1(%s) venceu!",cidade1);            //Mostra a expressão Carta 1(nome da cidade venceu) 
           
         } else {                                               //Se não
         printf("Carta 2 (%s)venceu!",cidade2) ;               //Mostra Carta 2 (nome da cidade) venceu                        
