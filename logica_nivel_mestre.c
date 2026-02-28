@@ -358,7 +358,7 @@
               } else if(comparacao_populacao1 ==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s) venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);                            //Mostra que Carta 2 venceu                                           
 
               
         
@@ -373,9 +373,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_PIB1==1||comparacao_populacao2==1&& comparacao_PIB2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);                            //Mostra que Carta 2 venceu                                           
 
               
 
@@ -394,9 +394,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_pontos1==1||comparacao_populacao2==1&& comparacao_pontos2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);  }   }                       //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);  }   }                       //Mostra que Carta 2 venceu                                           
 
 
 
@@ -410,9 +410,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_densidade1==1||comparacao_populacao2==1&& comparacao_densidade2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);   }                         //Mostra que Carta 2 venceu                                         
+                  printf("Carta 2 (%s) venceu!",cidade2);   }                         //Mostra que Carta 2 venceu                                         
                  
 
 
@@ -426,9 +426,9 @@
                  printf("Empate!") ;                                                                                            //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_PIB_per1==1||comparacao_populacao2==1&& comparacao_PIB_per2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);  }                         //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);  }                         //Mostra que Carta 2 venceu                                           
 
 
 
@@ -442,9 +442,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_area1 ==1 && comparacao_PIB1==1||comparacao_area2==1&& comparacao_PIB2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);}                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu !",cidade2);}                            //Mostra que Carta 2 venceu                                           
 
               
               
@@ -464,9 +464,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate 
                 
               } else if(comparacao_area1 ==1 && comparacao_pontos1==1||comparacao_area2==1&& comparacao_pontos2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
               
               
@@ -485,9 +485,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_area1 ==1 && comparacao_densidade1==1||comparacao_area2==1&& comparacao_densidade2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
               
                                                                   
@@ -501,9 +501,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_area1 != comparacao_PIB_per1||comparacao_area2 != comparacao_PIB_per2) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);  }                          //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);  }                          //Mostra que Carta 2 venceu                                           
 
               
 
@@ -518,9 +518,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_PIB1 ==1 && comparacao_pontos1==1||comparacao_PIB2==1&& comparacao_pontos2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
             
               
@@ -533,9 +533,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_PIB1 ==1 && comparacao_densidade1==1||comparacao_PIB2==1&& comparacao_densidade2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2);    }                        //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);    }                        //Mostra que Carta 2 venceu                                           
 
 
 
@@ -550,9 +550,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_PIB1 ==1 && comparacao_PIB_per1==1||comparacao_PIB2==1&& comparacao_PIB_per2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
     
 
 
@@ -566,9 +566,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_pontos1 ==1 && comparacao_densidade1==1||comparacao_pontos2==1&& comparacao_densidade2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
               
               
@@ -586,9 +586,9 @@
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_PIB1==1 && comparacao_PIB_per1==1||comparacao_PIB2==1&& comparacao_PIB_per2==1) {           //Verifica se a carta 1 venceu as duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                             //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                           //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
 
             } if(escolha1==5 && escolha2 ==6|| escolha1==6 && escolha2==5){       //Função que verifica se escolha1 e escolha2 forem respectivamente 5 e 6 ou 6 e 5
@@ -600,9 +600,9 @@
                  printf("Empate!") ;                                                                                      //Mostra Empate
                 
               } else if(comparacao_densidade1==1 && comparacao_PIB_per1==1||comparacao_densidade2==1&& comparacao_PIB_per2==1) {    //verfica se a carta 1 venceu nas duas comparações
-              printf("Carta1 (%s)venceu",cidade1);
+              printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                             //Se não
-                  printf("Carta 2 (%s) venceu",cidade2); }                        //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                        //Mostra que Carta 2 venceu                                           
 
              }}
 
