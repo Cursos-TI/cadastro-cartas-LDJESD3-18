@@ -358,7 +358,7 @@
               } else if(comparacao_populacao1==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s) venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu!",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);}                            //Mostra que Carta 2 venceu                                           
 
               
         
@@ -396,7 +396,7 @@
               } else if(comparacao_populacao1==1 && comparacao_pontos1==1||comparacao_populacao2==1&& comparacao_pontos2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu!",cidade2);  }   }                       //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);  }                          //Mostra que Carta 2 venceu                                           
 
 
 
