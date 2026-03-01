@@ -229,7 +229,7 @@
         printf("4.Área de %s:%.2f\n",cidade2,area2);        //Mostra a área de cidade2
         comparacao_area1= area1>area2 ? 1:0  ;             //Operador que compara se área 1 for maior que área 2 e armazena na variável comparação_area1 e retonar 1 se sim
         comparacao_igual_a1= area1==area2? 1:0 ;          //Operador que verfifica se as áreas forem iguais e armazena na variável comparacao_igual_a1
-        break;                                              //sai do switch
+        break;                                           //sai do switch
         
         case 3:                                                  //se escolha1 = 03   
         printf("1.Cidades:%s e %s:\n",cidade1,cidade2);         // Mostra o nome das cidades  
@@ -355,7 +355,7 @@
               if(comparacao_igual_p1 !=  comparacao_igual_a1||comparacao_igual_p2 != comparacao_igual_a2) {           //Se a  carta 1 um ganhou uma comparação e perdeu a outra  e o memso com a carta 2                                   
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
-              } else if(comparacao_populacao1==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
+              } else if(comparacao_populacao1==1 && comparacao_area2==1||comparacao_populacao2==1&& comparacao_area1==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s) venceu!",cidade1);
              } else {                                                                   //Se não
                   printf("Carta 2 (%s) venceu!",cidade2);}                             //Mostra que Carta 2 venceu                                           
